@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "0256654d-d0f8-4df2-8ecd-a998345b216c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/game/update-value-label.js",
+    "simulateGlobals": []
+  }
+}

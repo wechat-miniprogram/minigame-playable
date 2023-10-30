@@ -1,0 +1,13 @@
+{
+  "deviceOrientation": "portrait",
+  "subPackages": [
+    {
+     "independent": true,
+      "name": "playableDemo",
+      "root": "/playableDemo/",
+      "meta": {
+        "type": "playable"
+      }
+    }
+  ]
+}

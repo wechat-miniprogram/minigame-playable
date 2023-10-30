@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "31b00ecc-aa2c-4cdd-8c89-44e16c4cc121",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/game/page-result.js",
+    "simulateGlobals": []
+  }
+}

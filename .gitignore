@@ -1,0 +1,19 @@
+node_modules
+coverage
+.nyc_output/
+coverage.lcov
+.DS_Store
+.wechatide
+.cache
+.temp
+docs/.vuepress/dist
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+library/
+temp/
+local/
+# build/
+profiles/
+native

@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "4becf504-7ded-42da-9aca-ee1f33c4dbf3",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/game/ui-manager.js",
+    "simulateGlobals": []
+  }
+}
