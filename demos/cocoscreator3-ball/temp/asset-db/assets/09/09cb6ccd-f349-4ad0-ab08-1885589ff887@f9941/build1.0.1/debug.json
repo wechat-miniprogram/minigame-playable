@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "09cb6ccd-f349-4ad0-ab08-1885589ff887@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "singleColor",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 2,
+                "height": 2
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 2,
+                "height": 2
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "vertices": {
+                "rawPosition": [
+                    -1,
+                    -1,
+                    0,
+                    1,
+                    -1,
+                    0,
+                    -1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "indexes": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    3
+                ],
+                "uv": [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0,
+                    0,
+                    2,
+                    0
+                ],
+                "nuv": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "minPos": {
+                    "x": -1,
+                    "y": -1,
+                    "z": 0
+                },
+                "maxPos": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 0
+                }
+            },
+            "packable": true,
+            "pixelsToUnit": 100,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "meshType": 0
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

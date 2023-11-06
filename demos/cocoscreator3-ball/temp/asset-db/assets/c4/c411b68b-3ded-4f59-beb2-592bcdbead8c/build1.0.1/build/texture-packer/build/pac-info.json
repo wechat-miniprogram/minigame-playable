@@ -1,0 +1,219 @@
+{
+  "md5": "ed19e",
+  "versionDev": "1.0.2",
+  "sharpMd5": "a640b",
+  "result": {
+    "atlases": [
+      {
+        "spriteFrameInfos": [
+          {
+            "name": "commonRectangle8",
+            "uuid": "72b18307-3fd6-4639-a9ec-eccfb57021dc@f9941",
+            "imageUuid": "72b18307-3fd6-4639-a9ec-eccfb57021dc",
+            "textureUuid": "72b18307-3fd6-4639-a9ec-eccfb57021dc@6c48a",
+            "trim": {
+              "rotatedWidth": 53,
+              "rotatedHeight": 400,
+              "x": 3,
+              "y": 3,
+              "width": 400,
+              "height": 53
+            },
+            "rawWidth": 400,
+            "rawHeight": 60,
+            "width": 406,
+            "height": 59,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/72/72b18307-3fd6-4639-a9ec-eccfb57021dc.png",
+            "rotated": true,
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 59,
+            "rotatedHeight": 406
+          },
+          {
+            "name": "commonRectangle2",
+            "uuid": "777dfcfd-d1ae-44b5-9f9f-60a70ecbba46@f9941",
+            "imageUuid": "777dfcfd-d1ae-44b5-9f9f-60a70ecbba46",
+            "textureUuid": "777dfcfd-d1ae-44b5-9f9f-60a70ecbba46@6c48a",
+            "trim": {
+              "rotatedWidth": 120,
+              "rotatedHeight": 120,
+              "x": 3,
+              "y": 409,
+              "width": 120,
+              "height": 120
+            },
+            "rawWidth": 120,
+            "rawHeight": 120,
+            "width": 126,
+            "height": 126,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/77/777dfcfd-d1ae-44b5-9f9f-60a70ecbba46.png",
+            "rotated": false,
+            "x": 0,
+            "y": 406,
+            "rotatedWidth": 126,
+            "rotatedHeight": 126
+          },
+          {
+            "name": "commonBtnYellow",
+            "uuid": "3b9af972-08d7-4688-8b7c-18ce4feefa71@f9941",
+            "imageUuid": "3b9af972-08d7-4688-8b7c-18ce4feefa71",
+            "textureUuid": "3b9af972-08d7-4688-8b7c-18ce4feefa71@6c48a",
+            "trim": {
+              "rotatedWidth": 228,
+              "rotatedHeight": 100,
+              "x": 3,
+              "y": 535,
+              "width": 228,
+              "height": 100
+            },
+            "rawWidth": 228,
+            "rawHeight": 100,
+            "width": 234,
+            "height": 106,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/3b/3b9af972-08d7-4688-8b7c-18ce4feefa71.png",
+            "rotated": false,
+            "x": 0,
+            "y": 532,
+            "rotatedWidth": 234,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "commonTitle01",
+            "uuid": "6d1fdc16-30cb-41a6-939f-4e8412493bef@f9941",
+            "imageUuid": "6d1fdc16-30cb-41a6-939f-4e8412493bef",
+            "textureUuid": "6d1fdc16-30cb-41a6-939f-4e8412493bef@6c48a",
+            "trim": {
+              "rotatedWidth": 77,
+              "rotatedHeight": 318,
+              "x": 62,
+              "y": 3,
+              "width": 318,
+              "height": 77
+            },
+            "rawWidth": 318,
+            "rawHeight": 78,
+            "width": 324,
+            "height": 83,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/6d/6d1fdc16-30cb-41a6-939f-4e8412493bef.png",
+            "rotated": true,
+            "x": 59,
+            "y": 0,
+            "rotatedWidth": 83,
+            "rotatedHeight": 324
+          },
+          {
+            "name": "commonRectangle1",
+            "uuid": "dc01334b-9e8c-4595-a6c9-4c82a2e4e12e@f9941",
+            "imageUuid": "dc01334b-9e8c-4595-a6c9-4c82a2e4e12e",
+            "textureUuid": "dc01334b-9e8c-4595-a6c9-4c82a2e4e12e@6c48a",
+            "trim": {
+              "rotatedWidth": 120,
+              "rotatedHeight": 120,
+              "x": 129,
+              "y": 327,
+              "width": 120,
+              "height": 120
+            },
+            "rawWidth": 120,
+            "rawHeight": 120,
+            "width": 126,
+            "height": 126,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/dc/dc01334b-9e8c-4595-a6c9-4c82a2e4e12e.png",
+            "rotated": false,
+            "x": 126,
+            "y": 324,
+            "rotatedWidth": 126,
+            "rotatedHeight": 126
+          },
+          {
+            "name": "commonIconClose02",
+            "uuid": "1711c026-e79e-42b9-a86f-bf947e359376@f9941",
+            "imageUuid": "1711c026-e79e-42b9-a86f-bf947e359376",
+            "textureUuid": "1711c026-e79e-42b9-a86f-bf947e359376@6c48a",
+            "trim": {
+              "rotatedWidth": 61,
+              "rotatedHeight": 61,
+              "x": 62,
+              "y": 327,
+              "width": 61,
+              "height": 61
+            },
+            "rawWidth": 61,
+            "rawHeight": 61,
+            "width": 67,
+            "height": 67,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/17/1711c026-e79e-42b9-a86f-bf947e359376.png",
+            "rotated": false,
+            "x": 59,
+            "y": 324,
+            "rotatedWidth": 67,
+            "rotatedHeight": 67
+          },
+          {
+            "name": "commonIconClose",
+            "uuid": "5c73e467-d3e9-46fd-b27f-80b14af86ab9@f9941",
+            "imageUuid": "5c73e467-d3e9-46fd-b27f-80b14af86ab9",
+            "textureUuid": "5c73e467-d3e9-46fd-b27f-80b14af86ab9@6c48a",
+            "trim": {
+              "rotatedWidth": 83,
+              "rotatedHeight": 72,
+              "x": 129,
+              "y": 453,
+              "width": 72,
+              "height": 83
+            },
+            "rawWidth": 72,
+            "rawHeight": 84,
+            "width": 78,
+            "height": 89,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/5c/5c73e467-d3e9-46fd-b27f-80b14af86ab9.png",
+            "rotated": true,
+            "x": 126,
+            "y": 450,
+            "rotatedWidth": 89,
+            "rotatedHeight": 78
+          },
+          {
+            "name": "commonBtnGreen",
+            "uuid": "b240cd80-2972-43d7-81fa-e5f1a925e7ea@f9941",
+            "imageUuid": "b240cd80-2972-43d7-81fa-e5f1a925e7ea",
+            "textureUuid": "b240cd80-2972-43d7-81fa-e5f1a925e7ea@6c48a",
+            "trim": {
+              "rotatedWidth": 100,
+              "rotatedHeight": 228,
+              "x": 145,
+              "y": 3,
+              "width": 228,
+              "height": 100
+            },
+            "rawWidth": 228,
+            "rawHeight": 100,
+            "width": 234,
+            "height": 106,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/b2/b240cd80-2972-43d7-81fa-e5f1a925e7ea.png",
+            "rotated": true,
+            "x": 142,
+            "y": 0,
+            "rotatedWidth": 106,
+            "rotatedHeight": 234
+          }
+        ],
+        "width": 252,
+        "height": 638,
+        "name": "common.pac-0",
+        "imagePath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/asset-db/assets/c4/c411b68b-3ded-4f59-beb2-592bcdbead8c/build1.0.1/build/texture-packer/build/1aaa3e6e5.png",
+        "imageUuid": "1aaa3e6e5",
+        "textureUuid": "1aaa3e6e5@6c48a",
+        "compressed": {
+          "imagePathNoExt": "",
+          "suffixs": [
+            ".png"
+          ]
+        }
+      }
+    ],
+    "unpackedImages": [],
+    "pacUuid": "c411b68b-3ded-4f59-beb2-592bcdbead8c"
+  }
+}

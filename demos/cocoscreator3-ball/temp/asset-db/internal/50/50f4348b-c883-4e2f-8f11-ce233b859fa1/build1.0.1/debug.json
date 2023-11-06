@@ -1,0 +1,70 @@
+[
+    1,
+    [
+        "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    [
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_props",
+                "_states",
+                "_defines"
+            ],
+            -1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "ui-alpha-test-material",
+            [
+                {}
+            ],
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_ALPHA_TEST": true,
+                    "USE_TEXTURE": true,
+                    "IS_GRAY": false,
+                    "CC_USE_EMBEDDED_ALPHA": false
+                }
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

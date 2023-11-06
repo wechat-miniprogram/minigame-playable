@@ -1,0 +1,335 @@
+[
+    1,
+    0,
+    0,
+    [
+        [
+            "cc.EffectAsset",
+            [
+                "_name",
+                "shaders",
+                "techniques"
+            ],
+            0
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "util/splash-screen",
+            [
+                {
+                    "hash": 3189094080,
+                    "name": "util/splash-screen|splash-screen-vs:vert|splash-screen-fs:frag",
+                    "blocks": [
+                        {
+                            "name": "Constant",
+                            "stageFlags": 1,
+                            "binding": 0,
+                            "members": [
+                                {
+                                    "name": "u_buffer0",
+                                    "type": 16,
+                                    "count": 1
+                                },
+                                {
+                                    "name": "u_buffer1",
+                                    "type": 16,
+                                    "count": 1
+                                },
+                                {
+                                    "name": "u_projection",
+                                    "type": 25,
+                                    "count": 1
+                                }
+                            ],
+                            "defines": []
+                        },
+                        {
+                            "name": "Factor",
+                            "stageFlags": 16,
+                            "binding": 1,
+                            "members": [
+                                {
+                                    "name": "u_percent",
+                                    "type": 13,
+                                    "count": 1
+                                }
+                            ],
+                            "defines": []
+                        }
+                    ],
+                    "samplerTextures": [
+                        {
+                            "name": "mainTexture",
+                            "type": 28,
+                            "count": 1,
+                            "stageFlags": 16,
+                            "binding": 2,
+                            "defines": []
+                        }
+                    ],
+                    "samplers": [],
+                    "textures": [],
+                    "buffers": [],
+                    "images": [],
+                    "subpassInputs": [],
+                    "attributes": [
+                        {
+                            "name": "a_position",
+                            "format": 21,
+                            "location": 0,
+                            "defines": []
+                        },
+                        {
+                            "name": "a_texCoord",
+                            "format": 21,
+                            "location": 1,
+                            "defines": []
+                        }
+                    ],
+                    "fragColors": [
+                        {
+                            "name": "cc_FragColor",
+                            "typename": "vec4",
+                            "type": 16,
+                            "count": 1,
+                            "stageFlags": 16,
+                            "location": 0,
+                            "defines": []
+                        }
+                    ],
+                    "descriptors": [
+                        {
+                            "rate": 0,
+                            "blocks": [],
+                            "samplerTextures": [],
+                            "samplers": [],
+                            "textures": [],
+                            "buffers": [],
+                            "images": [],
+                            "subpassInputs": []
+                        },
+                        {
+                            "rate": 1,
+                            "blocks": [
+                                {
+                                    "name": "Constant",
+                                    "stageFlags": 1,
+                                    "binding": 0,
+                                    "members": [
+                                        {
+                                            "name": "u_buffer0",
+                                            "type": 16,
+                                            "count": 1
+                                        },
+                                        {
+                                            "name": "u_buffer1",
+                                            "type": 16,
+                                            "count": 1
+                                        },
+                                        {
+                                            "name": "u_projection",
+                                            "type": 25,
+                                            "count": 1
+                                        }
+                                    ],
+                                    "defines": []
+                                },
+                                {
+                                    "name": "Factor",
+                                    "stageFlags": 16,
+                                    "binding": 1,
+                                    "members": [
+                                        {
+                                            "name": "u_percent",
+                                            "type": 13,
+                                            "count": 1
+                                        }
+                                    ],
+                                    "defines": []
+                                }
+                            ],
+                            "samplerTextures": [
+                                {
+                                    "name": "mainTexture",
+                                    "type": 28,
+                                    "count": 1,
+                                    "stageFlags": 16,
+                                    "binding": 2,
+                                    "defines": []
+                                }
+                            ],
+                            "samplers": [],
+                            "textures": [],
+                            "buffers": [],
+                            "images": [],
+                            "subpassInputs": []
+                        },
+                        {
+                            "rate": 2,
+                            "blocks": [],
+                            "samplerTextures": [],
+                            "samplers": [],
+                            "textures": [],
+                            "buffers": [],
+                            "images": [],
+                            "subpassInputs": []
+                        },
+                        {
+                            "rate": 3,
+                            "blocks": [],
+                            "samplerTextures": [],
+                            "samplers": [],
+                            "textures": [],
+                            "buffers": [],
+                            "images": [],
+                            "subpassInputs": []
+                        }
+                    ],
+                    "glsl1": {
+                        "vert": "\nprecision mediump float;\nattribute vec2 a_position;\nattribute vec2 a_texCoord;\nvarying vec2 v_uv;\n  uniform vec4 u_buffer0;\n  uniform vec4 u_buffer1;\n  uniform mat4 u_projection;\nvec4 vert () {\n  vec2 worldPos = a_position * u_buffer1.xy + u_buffer1.zw;\n  vec2 clipSpace = worldPos / u_buffer0.xy * 2.0 - 1.0;\n  vec4 screenPos = u_projection * vec4(clipSpace, 0.0, 1.0);\n  v_uv = a_texCoord;\n  return screenPos;\n}\nvoid main() { gl_Position = vert(); }",
+                        "frag": "\nprecision mediump float;\nvarying vec2 v_uv;\n  uniform float u_percent;\nuniform sampler2D mainTexture;\nvec4 frag () {\n  vec4 color = texture2D(mainTexture, v_uv);\n  float percent = clamp(u_percent, 0.0, 1.0);\n  color.xyz *= percent;\n  return color;\n}\nvoid main() { gl_FragColor = frag(); }"
+                    },
+                    "builtins": {
+                        "globals": {
+                            "blocks": [],
+                            "samplerTextures": [],
+                            "buffers": [],
+                            "images": []
+                        },
+                        "locals": {
+                            "blocks": [],
+                            "samplerTextures": [],
+                            "buffers": [],
+                            "images": []
+                        },
+                        "statistics": {
+                            "CC_EFFECT_USED_VERTEX_UNIFORM_VECTORS": 6,
+                            "CC_EFFECT_USED_FRAGMENT_UNIFORM_VECTORS": 1
+                        }
+                    },
+                    "defines": []
+                }
+            ],
+            [
+                {
+                    "name": "default",
+                    "passes": [
+                        {
+                            "program": "util/splash-screen|splash-screen-vs:vert|splash-screen-fs:frag",
+                            "blendState": {
+                                "targets": [
+                                    {
+                                        "blend": true,
+                                        "blendSrc": 2,
+                                        "blendDst": 4,
+                                        "blendDstAlpha": 4
+                                    }
+                                ]
+                            },
+                            "rasterizerState": {
+                                "cullMode": 0
+                            },
+                            "depthStencilState": {
+                                "depthTest": false,
+                                "depthWrite": false
+                            },
+                            "properties": {
+                                "mainTexture": {
+                                    "value": "grey",
+                                    "type": 28
+                                },
+                                "resolution": {
+                                    "type": 14,
+                                    "value": [
+                                        640,
+                                        960
+                                    ],
+                                    "handleInfo": [
+                                        "u_buffer0",
+                                        0,
+                                        14
+                                    ]
+                                },
+                                "percent": {
+                                    "type": 13,
+                                    "value": [
+                                        0.5
+                                    ],
+                                    "handleInfo": [
+                                        "u_percent",
+                                        0,
+                                        13
+                                    ]
+                                },
+                                "scale": {
+                                    "type": 14,
+                                    "value": [
+                                        200,
+                                        500
+                                    ],
+                                    "handleInfo": [
+                                        "u_buffer1",
+                                        0,
+                                        14
+                                    ]
+                                },
+                                "translate": {
+                                    "type": 14,
+                                    "value": [
+                                        320,
+                                        480
+                                    ],
+                                    "handleInfo": [
+                                        "u_buffer1",
+                                        2,
+                                        14
+                                    ]
+                                },
+                                "u_buffer0": {
+                                    "type": 16,
+                                    "value": [
+                                        640,
+                                        960,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "u_percent": {
+                                    "type": 13,
+                                    "value": [
+                                        0.5
+                                    ]
+                                },
+                                "u_buffer1": {
+                                    "type": 16,
+                                    "value": [
+                                        200,
+                                        500,
+                                        320,
+                                        480
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        ]
+    ],
+    0,
+    0,
+    [],
+    [],
+    []
+]

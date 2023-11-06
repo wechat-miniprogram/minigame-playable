@@ -1,0 +1,1756 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res": {
+      "time": 1626077372000,
+      "uuid": "b164a31f-2e77-4b9e-a697-a6a815ed62c1"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources": {
+      "time": 1626077372000,
+      "uuid": "e89f4a45-a42c-44b9-8e88-96c60d874e7a"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/scene": {
+      "time": 1626077372000,
+      "uuid": "6ddfa29c-883f-4fbc-9d32-c62ee022c84e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script": {
+      "time": 1626077372000,
+      "uuid": "d60abf56-f76b-42f7-8b5c-aaf0ed57c15d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation": {
+      "time": 1626077372000,
+      "uuid": "7ea36067-d2a4-4462-aaa3-96055f1e2e74"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material": {
+      "time": 1626077372000,
+      "uuid": "b340b8fe-b858-4b35-8ebb-6e6315260bb9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model": {
+      "time": 1626077372000,
+      "uuid": "d9d125aa-3d4a-4dd8-9057-4a9bd10e9ed4"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture": {
+      "time": 1626077372000,
+      "uuid": "22cf436e-217c-4dc6-90aa-c66df1129c9d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio": {
+      "time": 1626077372000,
+      "uuid": "9a387e9f-4919-4aed-b1cd-d23d37ca362c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package": {
+      "time": 1626077372000,
+      "uuid": "90f23e95-a841-4a89-b428-b773f8068075"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/data": {
+      "time": 1626077372000,
+      "uuid": "a5cf7e4a-998d-4478-bec4-ba2836caff6c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game": {
+      "time": 1626077372000,
+      "uuid": "e7220b82-2e2f-4ec6-9c3b-aedd68062f7c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils": {
+      "time": 1626077372000,
+      "uuid": "351624bc-7d83-4a83-882e-dc44a91d4a9e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight": {
+      "time": 1626077372000,
+      "uuid": "668e9671-82da-4e3b-884c-12d7b5e02ea4"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball": {
+      "time": 1626077372000,
+      "uuid": "e6f406ed-9966-4b34-8f38-130237a8a71e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01": {
+      "time": 1626077372000,
+      "uuid": "1be58d67-1da6-40ce-b439-fd3a364e660a"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01": {
+      "time": 1626077372000,
+      "uuid": "ea91dbcd-7d0e-4c87-bc81-6268914aa872"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01": {
+      "time": 1626077372000,
+      "uuid": "457b80bb-6469-48dc-98d5-fcdaa30edf97"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail": {
+      "time": 1626077372000,
+      "uuid": "51f2680f-825c-46f9-af91-3c7c8bd25a94"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common": {
+      "time": 1626077372000,
+      "uuid": "8f599d32-9b48-406e-b5b4-654c7fc4f8cc"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight": {
+      "time": 1626077372000,
+      "uuid": "624247a3-6ca9-4fd8-a0e2-005d861503bd"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home": {
+      "time": 1626077372000,
+      "uuid": "c07d9551-44bc-4188-b727-b3086a3313d9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio/music": {
+      "time": 1626077372000,
+      "uuid": "1c6dd394-a022-4486-93c6-32419acec8f1"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio": {
+      "time": 1626077372000,
+      "uuid": "f661fdd9-0a35-4a8b-9856-3212be573d98"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab": {
+      "time": 1626077372000,
+      "uuid": "3b988251-03f8-45b4-86fc-a6822b06266d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01": {
+      "time": 1626077372000,
+      "uuid": "31d57bef-5f0d-4246-b458-891ebd4a9d4b"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio/sound": {
+      "time": 1626077372000,
+      "uuid": "dab9e08e-7809-46d9-a3d1-484c581e413d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/common": {
+      "time": 1626077372000,
+      "uuid": "07a2d1d2-1671-49a3-818d-8affc242a470"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight": {
+      "time": 1626077372000,
+      "uuid": "869a0a31-6f3e-4bce-957e-b87437182f29"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/data/constants.ts": {
+      "time": 1626077372000,
+      "uuid": "d9bbff11-3716-4ffe-a1c0-cc22a39a9227"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/audio-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "52ff6420-d0c9-4969-a529-2cd4b51cf4c9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/ball.ts": {
+      "time": 1626077372000,
+      "uuid": "900c8a50-f35b-4272-b6d1-76f8bd4b14c1"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/board-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "2a0a0422-befb-4466-8769-399efda8c15b"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/board.ts": {
+      "time": 1626077372000,
+      "uuid": "bb50a2dc-4e5d-456e-907b-1f2d07fc34fd"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/camera-ctrl.ts": {
+      "time": 1626077372000,
+      "uuid": "b52041a0-41a0-4336-a32d-39d238283265"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/game.ts": {
+      "time": 1626077372000,
+      "uuid": "6b699f7e-e5c1-4ae0-ae3b-442a1ac27078"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/page-result.ts": {
+      "time": 1626077372000,
+      "uuid": "31b00ecc-aa2c-4cdd-8c89-44e16c4cc121"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/page-start.ts": {
+      "time": 1626077372000,
+      "uuid": "75579a15-4e18-4d70-9377-8cd2eee36602"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/revive.ts": {
+      "time": 1626077372000,
+      "uuid": "37e87470-2d7b-40e4-bc06-9fa66eab8f2e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/ui-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "4becf504-7ded-42da-9aca-ee1f33c4dbf3"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/update-value-label.ts": {
+      "time": 1626077372000,
+      "uuid": "0256654d-d0f8-4df2-8ecd-a998345b216c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils/pool-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "f92c3c4e-72c7-4c10-a87b-5bff3840fac3"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils/utils.ts": {
+      "time": 1626077372000,
+      "uuid": "dddceff6-6bfb-4e48-b522-44a34c01055d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res.meta": {
+      "time": 1698307014054.0415
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources.meta": {
+      "time": 1698307014054.3374
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/scene.meta": {
+      "time": 1698307014054.5706
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script.meta": {
+      "time": 1698307014054.777
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation.meta": {
+      "time": 1698307014054.9773
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material.meta": {
+      "time": 1698307014057.2388
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model.meta": {
+      "time": 1698307014057.784
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture.meta": {
+      "time": 1698307014058.304
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio.meta": {
+      "time": 1698307014059.1587
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package.meta": {
+      "time": 1698307014059.6692
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/data.meta": {
+      "time": 1698307014060.641
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game.meta": {
+      "time": 1698307014061.2197
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils.meta": {
+      "time": 1698307014061.8481
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight.meta": {
+      "time": 1698307014062.9697
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball.meta": {
+      "time": 1698307014063.7349
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01.meta": {
+      "time": 1698307014065.429
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01.meta": {
+      "time": 1698307014066.5984
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01.meta": {
+      "time": 1698307014067.8457
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail.meta": {
+      "time": 1698307014068.4924
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common.meta": {
+      "time": 1698307014069.0083
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight.meta": {
+      "time": 1698307014070.905
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home.meta": {
+      "time": 1698307014071.5405
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio/music.meta": {
+      "time": 1698307014072.1396
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio.meta": {
+      "time": 1698307014072.6433
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab.meta": {
+      "time": 1698307014073.1978
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01.meta": {
+      "time": 1698307014073.916
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio/sound.meta": {
+      "time": 1698307014074.4631
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/common.meta": {
+      "time": 1698307014075.137
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight.meta": {
+      "time": 1698307014075.7964
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/data/constants.ts.meta": {
+      "time": 1698307014080.359
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/audio-manager.ts.meta": {
+      "time": 1698307014081.6047
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/ball.ts.meta": {
+      "time": 1698307014082.052
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/board-manager.ts.meta": {
+      "time": 1698307014082.409
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/board.ts.meta": {
+      "time": 1698307014084.2544
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/camera-ctrl.ts.meta": {
+      "time": 1698307014089.9646
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/game.ts.meta": {
+      "time": 1698307014093.123
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/page-result.ts.meta": {
+      "time": 1698307014095.507
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/page-start.ts.meta": {
+      "time": 1698307014096.666
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/revive.ts.meta": {
+      "time": 1698307014097.0334
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/ui-manager.ts.meta": {
+      "time": 1698307014098.5488
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/game/update-value-label.ts.meta": {
+      "time": 1698307014099.2131
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils/pool-manager.ts.meta": {
+      "time": 1698307014100.6282
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/script/utils/utils.ts.meta": {
+      "time": 1698307014101.2634
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/scene/main.scene": {
+      "time": 1698307028845.2134,
+      "uuid": "42ecfffa-0786-408f-a8d4-5fc9353e5ba9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/redDot.anim": {
+      "time": 1698307028828.8494,
+      "uuid": "51e5a2f1-47bc-4226-ab35-3273533da1e3"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/start.anim": {
+      "time": 1698307028828.2634,
+      "uuid": "f84ecc13-b02f-4c0a-9650-292b0d73d357"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/ballHigh011.mtl": {
+      "time": 1698307028765.8184,
+      "uuid": "71d93975-d01a-403a-916b-99e2101b6056"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/center.mtl": {
+      "time": 1698307028765.6318,
+      "uuid": "d7ecffba-0263-4e74-9e22-f558458724ed"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond1.mtl": {
+      "time": 1698307028802.6191,
+      "uuid": "968899b2-f6d6-445f-a9a5-4a80fdbbcfd8"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond2.mtl": {
+      "time": 1698307028836.3472,
+      "uuid": "ff0140b9-943a-41ae-80c7-2c75eaf78a5b"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane.mtl": {
+      "time": 1698307028836.4973,
+      "uuid": "9d0e77a5-db5e-447b-aa80-e11c29f21584"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane1.mtl": {
+      "time": 1698307028850.7588,
+      "uuid": "9d3f46dc-1b8c-4515-bce6-1c2ef48aa62a"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane2.mtl": {
+      "time": 1698307028858.8066,
+      "uuid": "2d099fcf-f7e5-43ca-9237-9a8018d275e7"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate01.mtl": {
+      "time": 1698307028861.5637,
+      "uuid": "d45700de-9eb0-4385-b448-ee83d6129543"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate02.mtl": {
+      "time": 1698307028861.8298,
+      "uuid": "4a93ce96-ddb7-4a23-9277-d8f68ade05d3"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring01.mtl": {
+      "time": 1698307028867.1604,
+      "uuid": "7de841ee-aac0-449e-8a55-ce109269151f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring02.mtl": {
+      "time": 1698307028878.1045,
+      "uuid": "d4c26d11-83f8-4777-94bf-4bc3058b681f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/wave.mtl": {
+      "time": 1698307028882.4353,
+      "uuid": "8458bfe6-2599-4284-af4f-a82259741099"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/planeBg01.FBX": {
+      "time": 1626077372000,
+      "uuid": "80bf90f7-8567-4e82-8820-df7470d17e85"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/singleColor.png": {
+      "time": 1626077372000,
+      "uuid": "09cb6ccd-f349-4ad0-ab08-1885589ff887"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight/score.anim": {
+      "time": 1698307034581.8784,
+      "uuid": "3394f8f3-cfc7-433a-b11f-3623f8865320"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight/tips.anim": {
+      "time": 1698307034582.5178,
+      "uuid": "240414dc-ea55-4bce-9573-1ffc312d55d7"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ball.FBX": {
+      "time": 1626077372000,
+      "uuid": "1f61dfda-8178-4d63-95f1-77c220eb0f7c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ballGreen01.png": {
+      "time": 1626077372000,
+      "uuid": "1f9f963f-2c0b-4762-ab97-fb87498b9bc4"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ballHigh01.png": {
+      "time": 1626077372000,
+      "uuid": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.anim": {
+      "time": 1698307034602.4475,
+      "uuid": "3e23676c-1275-4477-8d77-a524a2dcfd8d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.fbx": {
+      "time": 1626077372000,
+      "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.jpg": {
+      "time": 1626077372000,
+      "uuid": "7d207963-41de-445b-93d8-a00efac7e6c4"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate01.FBX": {
+      "time": 1626077372000,
+      "uuid": "85ad4e21-18e6-4ac3-bafe-970a060786be"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate01.jpg": {
+      "time": 1626077372000,
+      "uuid": "fd3716ab-0308-48aa-b8d1-83b918b204f5"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate02.FBX": {
+      "time": 1626077372000,
+      "uuid": "b4abfee9-978f-4790-b2f7-4104d4fdf862"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.FBX": {
+      "time": 1626077372000,
+      "uuid": "a52a7b0d-a9ff-4b77-9207-f048c0ee4c4d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.jpg": {
+      "time": 1626077372000,
+      "uuid": "70c7e379-3aac-4996-863c-c0246677b792"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.prefab": {
+      "time": 1698307046674.5598,
+      "uuid": "c3eb5045-9af0-40f2-8e8b-2aea26c03a28"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring02.FBX": {
+      "time": 1626077372000,
+      "uuid": "a0abcfcb-adf3-4c02-bc7c-955ea4d8d7aa"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/ballLight01.anim": {
+      "time": 1698307049142.351,
+      "uuid": "4d663e5e-c1c3-4e1c-9e12-f4409ced4aeb"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/effectLight01.png": {
+      "time": 1626077372000,
+      "uuid": "0bc35d07-f319-4e0d-b4c8-958df7ea1acc"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule01.mtl": {
+      "time": 1698307049138.8674,
+      "uuid": "67df1553-0508-47a7-956a-cf0590524915"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule01.png": {
+      "time": 1626077372000,
+      "uuid": "11a1ad54-35af-4cde-8048-74b1754b9d13"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule02.mtl": {
+      "time": 1698307049153.505,
+      "uuid": "84cbd56b-7cf8-4dac-af6b-fa765248f7b9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/common.pac": {
+      "time": 1626077372000,
+      "uuid": "c411b68b-3ded-4f59-beb2-592bcdbead8c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonBtnGreen.png": {
+      "time": 1626077372000,
+      "uuid": "b240cd80-2972-43d7-81fa-e5f1a925e7ea"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonBtnYellow.png": {
+      "time": 1626077372000,
+      "uuid": "3b9af972-08d7-4688-8b7c-18ce4feefa71"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonIconClose.png": {
+      "time": 1626077372000,
+      "uuid": "5c73e467-d3e9-46fd-b27f-80b14af86ab9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonIconClose02.png": {
+      "time": 1626077372000,
+      "uuid": "1711c026-e79e-42b9-a86f-bf947e359376"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle1.png": {
+      "time": 1626077372000,
+      "uuid": "dc01334b-9e8c-4595-a6c9-4c82a2e4e12e"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle2.png": {
+      "time": 1626077372000,
+      "uuid": "777dfcfd-d1ae-44b5-9f9f-60a70ecbba46"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle8.png": {
+      "time": 1626077372000,
+      "uuid": "72b18307-3fd6-4639-a9ec-eccfb57021dc"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonTitle01.png": {
+      "time": 1626077372000,
+      "uuid": "6d1fdc16-30cb-41a6-939f-4e8412493bef"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fight.pac": {
+      "time": 1626077372000,
+      "uuid": "2aefbb47-21d9-4359-99c6-0fc1b26a3be2"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightBoxNumber.png": {
+      "time": 1626077372000,
+      "uuid": "cb98f2e3-f9d1-43ec-8202-b877ae14b896"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightCircle.png": {
+      "time": 1626077372000,
+      "uuid": "47b82627-6e2f-4f69-85aa-d3bff7eb60fa"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgArrow.png": {
+      "time": 1626077372000,
+      "uuid": "21e113b6-35e7-4e38-9438-652bb2410caa"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgArrow2.png": {
+      "time": 1626077372000,
+      "uuid": "5ddf1ad6-2fba-4303-9861-40b203fa1665"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgHand.png": {
+      "time": 1626077372000,
+      "uuid": "700383d2-81af-4e65-bc16-d0042784e28f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightLineGray.png": {
+      "time": 1626077372000,
+      "uuid": "ccd19ae0-0a84-4f66-894e-96741c295820"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightLineRed.png": {
+      "time": 1626077372000,
+      "uuid": "3d342da6-8d74-4ebb-8aad-a643d1a6b39f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightScore.png": {
+      "time": 1626077372000,
+      "uuid": "b70b71bd-411b-448f-a01c-359492c99f74"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/wave.png": {
+      "time": 1626077372000,
+      "uuid": "c216e043-a577-4065-8099-c75d6a514df4"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/home.pac": {
+      "time": 1626077372000,
+      "uuid": "00f88bb4-a6aa-4194-875f-cee9a142af89"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG.jpg": {
+      "time": 1626077372000,
+      "uuid": "8fbd1253-037e-45c5-9c5a-95b787be783c"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG02.jpg": {
+      "time": 1626077372000,
+      "uuid": "0aeb0da9-3705-44e0-bc33-f5dcf0b03664"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG03.jpg": {
+      "time": 1626077372000,
+      "uuid": "859d65df-d7f2-4a20-99ff-f5f3675a0ea1"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxAD.png": {
+      "time": 1626077372000,
+      "uuid": "72476ef4-b9c1-477c-b6e0-58a4c2cfdc93"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxArrow.png": {
+      "time": 1626077372000,
+      "uuid": "78af3198-c986-4aea-a3f3-394291d2d9db"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxGames02.png": {
+      "time": 1626077372000,
+      "uuid": "7992cb14-125e-4702-9406-25f00aa66161"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeImgLogo.png": {
+      "time": 1626077372000,
+      "uuid": "796d0924-0bcc-4139-b3b3-be361cbb396a"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio/music/background.mp3": {
+      "time": 1626077372000,
+      "uuid": "9224b08e-5897-4e3f-99a0-dc09ba2cb894"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl": {
+      "time": 1698307049274.0537,
+      "uuid": "2bc2cdeb-90e0-42e3-8628-f89fe926e26f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl": {
+      "time": 1698307049282.2385,
+      "uuid": "bbaa0a24-e1ac-43be-acb3-4b6b4c26f8e9"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio/sound/click.mp3": {
+      "time": 1626077372000,
+      "uuid": "b1be0680-60d6-4bec-8ebd-5adf6582c04b"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/common/tips.prefab": {
+      "time": 1698307049307.634,
+      "uuid": "7be81a67-ffb4-489d-a543-2d3b6ade9012"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/ball.prefab": {
+      "time": 1698307049307.461,
+      "uuid": "cc2ffa4e-b16d-46bd-9158-4b0771cc9164"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/board.prefab": {
+      "time": 1698307049307.776,
+      "uuid": "b79f42a5-4f07-494c-a19c-3da4334841ee"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/center.prefab": {
+      "time": 1698307049309.8813,
+      "uuid": "267f7205-58c7-475a-82b3-c1f3b8ccf44d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/diamond.prefab": {
+      "time": 1698307049344.258,
+      "uuid": "b6748d39-c104-499d-a5ae-0cd66aa73ea7"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/effectDiamond01.prefab": {
+      "time": 1698307049354.517,
+      "uuid": "b1fc9a91-ec8c-4c7a-9dc3-3f99f18c39fd"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/effectLight01.prefab": {
+      "time": 1698307049354.6123,
+      "uuid": "519290e7-9d06-4212-9d54-e28a7c2a6b05"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/revive.prefab": {
+      "time": 1698307049354.5635,
+      "uuid": "6a08c183-cb9d-4b05-b9ca-6d5d1581ad5f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/scoreAni.prefab": {
+      "time": 1698307049357.1973,
+      "uuid": "1f858a4c-edcf-4051-b871-9d7c35137ead"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/springHelix.prefab": {
+      "time": 1698307049390.359,
+      "uuid": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/springTop.prefab": {
+      "time": 1698307049397.8782,
+      "uuid": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/trail01.prefab": {
+      "time": 1698307049397.9348,
+      "uuid": "f64b6551-9ede-40a5-b41d-f3d3884af22f"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/wave.prefab": {
+      "time": 1698307049399.4956,
+      "uuid": "5541ce13-119d-46e4-93df-7a2da2fe3c88"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/migrate-canvas.ts": {
+      "time": 1698307028765.6038,
+      "uuid": "a28c7358-9367-4d40-b1fc-f31799b0e69d"
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/ballHigh011.mtl.meta": {
+      "time": 1698307028802.7427
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/center.mtl.meta": {
+      "time": 1698307028827.9558
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond1.mtl.meta": {
+      "time": 1698307028836.9001
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/start.anim.meta": {
+      "time": 1698307028846.2224
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/redDot.anim.meta": {
+      "time": 1698307028847.1863
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond2.mtl.meta": {
+      "time": 1698307028849.1243
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane.mtl.meta": {
+      "time": 1698307028850.848
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/scene/main.scene.meta": {
+      "time": 1698307028861.359
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane1.mtl.meta": {
+      "time": 1698307028866.6345
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane2.mtl.meta": {
+      "time": 1698307028877.492
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate01.mtl.meta": {
+      "time": 1698307028879.6572
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate02.mtl.meta": {
+      "time": 1698307028881.5522
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring01.mtl.meta": {
+      "time": 1698307028885.4622
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring02.mtl.meta": {
+      "time": 1698307028887.6296
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/wave.mtl.meta": {
+      "time": 1698307028889.7637
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight/tips.anim.meta": {
+      "time": 1698307034589.0913
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/singleColor.png.meta": {
+      "time": 1698307034590.5989
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/animation/fight/score.anim.meta": {
+      "time": 1698307034591.2107
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ballGreen01.png.meta": {
+      "time": 1698307034600.3079
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ballHigh01.png.meta": {
+      "time": 1698307034602.1565
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.anim.meta": {
+      "time": 1698307037552.059
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/planeBg01.FBX.meta": {
+      "time": 1698307037594.5999
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.jpg.meta": {
+      "time": 1698307040503.8374
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate01.jpg.meta": {
+      "time": 1698307043731.9255
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/diamond01.fbx.meta": {
+      "time": 1698307046650.4429
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/ball/ball.FBX.meta": {
+      "time": 1698307046653.3877
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate01.FBX.meta": {
+      "time": 1698307046665.7166
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.jpg.meta": {
+      "time": 1698307046676.328
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/plate01/plate02.FBX.meta": {
+      "time": 1698307049133.0151
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.prefab.meta": {
+      "time": 1698307049136.4036
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule01.mtl.meta": {
+      "time": 1698307049145.894
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/ballLight01.anim.meta": {
+      "time": 1698307049149.0566
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/effectLight01.png.meta": {
+      "time": 1698307049150.367
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule01.png.meta": {
+      "time": 1698307049156.5989
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/common.pac.meta": {
+      "time": 1698307049156.9744
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule02.mtl.meta": {
+      "time": 1698307049158.3945
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring01.FBX.meta": {
+      "time": 1698307049168.4604
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonBtnGreen.png.meta": {
+      "time": 1698307049174.8726
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonBtnYellow.png.meta": {
+      "time": 1698307049175.6174
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonIconClose.png.meta": {
+      "time": 1698307049185.346
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonIconClose02.png.meta": {
+      "time": 1698307049195.5437
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/sping01/spring02.FBX.meta": {
+      "time": 1698307049206.8687
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fight.pac.meta": {
+      "time": 1698307049212.6797
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle2.png.meta": {
+      "time": 1698307049213.7957
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle1.png.meta": {
+      "time": 1698307049214.4956
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonRectangle8.png.meta": {
+      "time": 1698307049217.45
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/common/commonTitle01.png.meta": {
+      "time": 1698307049220.297
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightBoxNumber.png.meta": {
+      "time": 1698307049230.3984
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgArrow2.png.meta": {
+      "time": 1698307049235.4136
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgArrow.png.meta": {
+      "time": 1698307049238.1975
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightCircle.png.meta": {
+      "time": 1698307049240.4417
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightImgHand.png.meta": {
+      "time": 1698307049241.2817
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/home.pac.meta": {
+      "time": 1698307049243.9446
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightScore.png.meta": {
+      "time": 1698307049250.8127
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/wave.png.meta": {
+      "time": 1698307049252.976
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightLineGray.png.meta": {
+      "time": 1698307049253.5217
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/fight/fightLineRed.png.meta": {
+      "time": 1698307049257.0217
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG.jpg.meta": {
+      "time": 1698307049258.1206
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG02.jpg.meta": {
+      "time": 1698307049263.8752
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBG03.jpg.meta": {
+      "time": 1698307049265.0957
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxArrow.png.meta": {
+      "time": 1698307049269.0605
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxAD.png.meta": {
+      "time": 1698307049277.9648
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl.meta": {
+      "time": 1698307049281.7114
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/audio/music/background.mp3.meta": {
+      "time": 1698307049282.6477
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeBoxGames02.png.meta": {
+      "time": 1698307049284.1902
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl.meta": {
+      "time": 1698307049291.965
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/texture/home/homeImgLogo.png.meta": {
+      "time": 1698307049300.1174
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/audio/sound/click.mp3.meta": {
+      "time": 1698307049308.4536
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/ball.prefab.meta": {
+      "time": 1698307049309.5066
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/common/tips.prefab.meta": {
+      "time": 1698307049310.1516
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/board.prefab.meta": {
+      "time": 1698307049311.9785
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/center.prefab.meta": {
+      "time": 1698307049342.5916
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/diamond.prefab.meta": {
+      "time": 1698307049354.8997
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/effectDiamond01.prefab.meta": {
+      "time": 1698307049363.4805
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/effectLight01.prefab.meta": {
+      "time": 1698307049364.529
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/revive.prefab.meta": {
+      "time": 1698307049366.568
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/scoreAni.prefab.meta": {
+      "time": 1698307049367.7112
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/migrate-canvas.ts.meta": {
+      "time": 1698307049372.6194
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/springHelix.prefab.meta": {
+      "time": 1698307049398.4915
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/springTop.prefab.meta": {
+      "time": 1698307049400.7512
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/trail01.prefab.meta": {
+      "time": 1698307049402.216
+    },
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/resources/package/prefab/fight/wave.prefab.meta": {
+      "time": 1698307049403.4102
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res": {
+      "time": 1698307917089.7666,
+      "uuid": "b164a31f-2e77-4b9e-a697-a6a815ed62c1"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources": {
+      "time": 1698307917094.167,
+      "uuid": "e89f4a45-a42c-44b9-8e88-96c60d874e7a"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/scene": {
+      "time": 1626077372000,
+      "uuid": "6ddfa29c-883f-4fbc-9d32-c62ee022c84e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script": {
+      "time": 1698307917095.7568,
+      "uuid": "d60abf56-f76b-42f7-8b5c-aaf0ed57c15d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation": {
+      "time": 1626077372000,
+      "uuid": "7ea36067-d2a4-4462-aaa3-96055f1e2e74"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material": {
+      "time": 1626077372000,
+      "uuid": "b340b8fe-b858-4b35-8ebb-6e6315260bb9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model": {
+      "time": 1626077372000,
+      "uuid": "d9d125aa-3d4a-4dd8-9057-4a9bd10e9ed4"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture": {
+      "time": 1626077372000,
+      "uuid": "22cf436e-217c-4dc6-90aa-c66df1129c9d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio": {
+      "time": 1626077372000,
+      "uuid": "9a387e9f-4919-4aed-b1cd-d23d37ca362c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package": {
+      "time": 1626077372000,
+      "uuid": "90f23e95-a841-4a89-b428-b773f8068075"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/data": {
+      "time": 1626077372000,
+      "uuid": "a5cf7e4a-998d-4478-bec4-ba2836caff6c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game": {
+      "time": 1626077372000,
+      "uuid": "e7220b82-2e2f-4ec6-9c3b-aedd68062f7c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils": {
+      "time": 1626077372000,
+      "uuid": "351624bc-7d83-4a83-882e-dc44a91d4a9e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight": {
+      "time": 1626077372000,
+      "uuid": "668e9671-82da-4e3b-884c-12d7b5e02ea4"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball": {
+      "time": 1626077372000,
+      "uuid": "e6f406ed-9966-4b34-8f38-130237a8a71e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01": {
+      "time": 1626077372000,
+      "uuid": "1be58d67-1da6-40ce-b439-fd3a364e660a"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01": {
+      "time": 1626077372000,
+      "uuid": "ea91dbcd-7d0e-4c87-bc81-6268914aa872"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01": {
+      "time": 1626077372000,
+      "uuid": "457b80bb-6469-48dc-98d5-fcdaa30edf97"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail": {
+      "time": 1626077372000,
+      "uuid": "51f2680f-825c-46f9-af91-3c7c8bd25a94"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common": {
+      "time": 1626077372000,
+      "uuid": "8f599d32-9b48-406e-b5b4-654c7fc4f8cc"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight": {
+      "time": 1626077372000,
+      "uuid": "624247a3-6ca9-4fd8-a0e2-005d861503bd"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home": {
+      "time": 1626077372000,
+      "uuid": "c07d9551-44bc-4188-b727-b3086a3313d9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio/music": {
+      "time": 1626077372000,
+      "uuid": "1c6dd394-a022-4486-93c6-32419acec8f1"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio": {
+      "time": 1626077372000,
+      "uuid": "f661fdd9-0a35-4a8b-9856-3212be573d98"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab": {
+      "time": 1626077372000,
+      "uuid": "3b988251-03f8-45b4-86fc-a6822b06266d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01": {
+      "time": 1626077372000,
+      "uuid": "31d57bef-5f0d-4246-b458-891ebd4a9d4b"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio/sound": {
+      "time": 1626077372000,
+      "uuid": "dab9e08e-7809-46d9-a3d1-484c581e413d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/common": {
+      "time": 1626077372000,
+      "uuid": "07a2d1d2-1671-49a3-818d-8affc242a470"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight": {
+      "time": 1626077372000,
+      "uuid": "869a0a31-6f3e-4bce-957e-b87437182f29"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/migrate-canvas.ts": {
+      "time": 1698307028765.6038,
+      "uuid": "a28c7358-9367-4d40-b1fc-f31799b0e69d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/data/constants.ts": {
+      "time": 1626077372000,
+      "uuid": "d9bbff11-3716-4ffe-a1c0-cc22a39a9227"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/audio-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "52ff6420-d0c9-4969-a529-2cd4b51cf4c9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/ball.ts": {
+      "time": 1626077372000,
+      "uuid": "900c8a50-f35b-4272-b6d1-76f8bd4b14c1"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/board-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "2a0a0422-befb-4466-8769-399efda8c15b"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/board.ts": {
+      "time": 1626077372000,
+      "uuid": "bb50a2dc-4e5d-456e-907b-1f2d07fc34fd"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/camera-ctrl.ts": {
+      "time": 1626077372000,
+      "uuid": "b52041a0-41a0-4336-a32d-39d238283265"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/game.ts": {
+      "time": 1626077372000,
+      "uuid": "6b699f7e-e5c1-4ae0-ae3b-442a1ac27078"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/page-result.ts": {
+      "time": 1626077372000,
+      "uuid": "31b00ecc-aa2c-4cdd-8c89-44e16c4cc121"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/page-start.ts": {
+      "time": 1626077372000,
+      "uuid": "75579a15-4e18-4d70-9377-8cd2eee36602"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/revive.ts": {
+      "time": 1626077372000,
+      "uuid": "37e87470-2d7b-40e4-bc06-9fa66eab8f2e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/ui-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "4becf504-7ded-42da-9aca-ee1f33c4dbf3"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/update-value-label.ts": {
+      "time": 1626077372000,
+      "uuid": "0256654d-d0f8-4df2-8ecd-a998345b216c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils/pool-manager.ts": {
+      "time": 1626077372000,
+      "uuid": "f92c3c4e-72c7-4c10-a87b-5bff3840fac3"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils/utils.ts": {
+      "time": 1626077372000,
+      "uuid": "dddceff6-6bfb-4e48-b522-44a34c01055d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res.meta": {
+      "time": 1698307014054.0415
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources.meta": {
+      "time": 1698307014054.3374
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/scene.meta": {
+      "time": 1698307014054.5706
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script.meta": {
+      "time": 1698307014054.777
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation.meta": {
+      "time": 1698307014054.9775
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material.meta": {
+      "time": 1698307014057.2388
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model.meta": {
+      "time": 1698307014057.784
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture.meta": {
+      "time": 1698307014058.304
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio.meta": {
+      "time": 1698307014059.1587
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package.meta": {
+      "time": 1698307014059.6692
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/data.meta": {
+      "time": 1698307014060.641
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game.meta": {
+      "time": 1698307014061.2197
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils.meta": {
+      "time": 1698307014061.8481
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight.meta": {
+      "time": 1698307014062.9697
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball.meta": {
+      "time": 1698307014063.7349
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01.meta": {
+      "time": 1698307014065.429
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01.meta": {
+      "time": 1698307014066.5984
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01.meta": {
+      "time": 1698307014067.8457
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail.meta": {
+      "time": 1698307014068.4924
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common.meta": {
+      "time": 1698307014069.0083
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight.meta": {
+      "time": 1698307014070.905
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home.meta": {
+      "time": 1698307014071.5405
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio/music.meta": {
+      "time": 1698307014072.1396
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio.meta": {
+      "time": 1698307014072.6433
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab.meta": {
+      "time": 1698307014073.1978
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01.meta": {
+      "time": 1698307014073.916
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio/sound.meta": {
+      "time": 1698307014074.4631
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/common.meta": {
+      "time": 1698307014075.137
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight.meta": {
+      "time": 1698307014075.7964
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/migrate-canvas.ts.meta": {
+      "time": 1698307049372.6194
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/data/constants.ts.meta": {
+      "time": 1698307014080.359
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/audio-manager.ts.meta": {
+      "time": 1698307014081.6047
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/ball.ts.meta": {
+      "time": 1698307014082.052
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/board-manager.ts.meta": {
+      "time": 1698307014082.409
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/board.ts.meta": {
+      "time": 1698307014084.2544
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/camera-ctrl.ts.meta": {
+      "time": 1698307014089.9646
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/game.ts.meta": {
+      "time": 1698307014093.1233
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/page-result.ts.meta": {
+      "time": 1698307014095.507
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/page-start.ts.meta": {
+      "time": 1698307014096.666
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/revive.ts.meta": {
+      "time": 1698307014097.0334
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/ui-manager.ts.meta": {
+      "time": 1698307014098.5488
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/game/update-value-label.ts.meta": {
+      "time": 1698307014099.2131
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils/pool-manager.ts.meta": {
+      "time": 1698307014100.6282
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/script/utils/utils.ts.meta": {
+      "time": 1698307014101.2632
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/scene/main.scene": {
+      "time": 1698307028845.2134,
+      "uuid": "42ecfffa-0786-408f-a8d4-5fc9353e5ba9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/redDot.anim": {
+      "time": 1698307028828.8494,
+      "uuid": "51e5a2f1-47bc-4226-ab35-3273533da1e3"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/start.anim": {
+      "time": 1698307028828.2634,
+      "uuid": "f84ecc13-b02f-4c0a-9650-292b0d73d357"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/ballHigh011.mtl": {
+      "time": 1698307028765.8184,
+      "uuid": "71d93975-d01a-403a-916b-99e2101b6056"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/center.mtl": {
+      "time": 1698307028765.6318,
+      "uuid": "d7ecffba-0263-4e74-9e22-f558458724ed"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond1.mtl": {
+      "time": 1698307028802.619,
+      "uuid": "968899b2-f6d6-445f-a9a5-4a80fdbbcfd8"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond2.mtl": {
+      "time": 1698307028836.3472,
+      "uuid": "ff0140b9-943a-41ae-80c7-2c75eaf78a5b"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane.mtl": {
+      "time": 1698307028836.4973,
+      "uuid": "9d0e77a5-db5e-447b-aa80-e11c29f21584"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane1.mtl": {
+      "time": 1698307028850.7588,
+      "uuid": "9d3f46dc-1b8c-4515-bce6-1c2ef48aa62a"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane2.mtl": {
+      "time": 1698307028858.8066,
+      "uuid": "2d099fcf-f7e5-43ca-9237-9a8018d275e7"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate01.mtl": {
+      "time": 1698307028861.5637,
+      "uuid": "d45700de-9eb0-4385-b448-ee83d6129543"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate02.mtl": {
+      "time": 1698307028861.8298,
+      "uuid": "4a93ce96-ddb7-4a23-9277-d8f68ade05d3"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring01.mtl": {
+      "time": 1698307028867.1604,
+      "uuid": "7de841ee-aac0-449e-8a55-ce109269151f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring02.mtl": {
+      "time": 1698307028878.1045,
+      "uuid": "d4c26d11-83f8-4777-94bf-4bc3058b681f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/wave.mtl": {
+      "time": 1698307028882.4353,
+      "uuid": "8458bfe6-2599-4284-af4f-a82259741099"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/planeBg01.FBX": {
+      "time": 1626077372000,
+      "uuid": "80bf90f7-8567-4e82-8820-df7470d17e85"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/singleColor.png": {
+      "time": 1626077372000,
+      "uuid": "09cb6ccd-f349-4ad0-ab08-1885589ff887"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight/score.anim": {
+      "time": 1698307034581.8784,
+      "uuid": "3394f8f3-cfc7-433a-b11f-3623f8865320"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight/tips.anim": {
+      "time": 1698307034582.518,
+      "uuid": "240414dc-ea55-4bce-9573-1ffc312d55d7"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ball.FBX": {
+      "time": 1626077372000,
+      "uuid": "1f61dfda-8178-4d63-95f1-77c220eb0f7c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ballGreen01.png": {
+      "time": 1626077372000,
+      "uuid": "1f9f963f-2c0b-4762-ab97-fb87498b9bc4"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ballHigh01.png": {
+      "time": 1626077372000,
+      "uuid": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.anim": {
+      "time": 1698307034602.4475,
+      "uuid": "3e23676c-1275-4477-8d77-a524a2dcfd8d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.fbx": {
+      "time": 1626077372000,
+      "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.jpg": {
+      "time": 1626077372000,
+      "uuid": "7d207963-41de-445b-93d8-a00efac7e6c4"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate01.FBX": {
+      "time": 1626077372000,
+      "uuid": "85ad4e21-18e6-4ac3-bafe-970a060786be"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate01.jpg": {
+      "time": 1626077372000,
+      "uuid": "fd3716ab-0308-48aa-b8d1-83b918b204f5"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate02.FBX": {
+      "time": 1626077372000,
+      "uuid": "b4abfee9-978f-4790-b2f7-4104d4fdf862"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.FBX": {
+      "time": 1626077372000,
+      "uuid": "a52a7b0d-a9ff-4b77-9207-f048c0ee4c4d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.jpg": {
+      "time": 1626077372000,
+      "uuid": "70c7e379-3aac-4996-863c-c0246677b792"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.prefab": {
+      "time": 1698307046674.5598,
+      "uuid": "c3eb5045-9af0-40f2-8e8b-2aea26c03a28"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring02.FBX": {
+      "time": 1626077372000,
+      "uuid": "a0abcfcb-adf3-4c02-bc7c-955ea4d8d7aa"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/ballLight01.anim": {
+      "time": 1698307049142.351,
+      "uuid": "4d663e5e-c1c3-4e1c-9e12-f4409ced4aeb"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/effectLight01.png": {
+      "time": 1626077372000,
+      "uuid": "0bc35d07-f319-4e0d-b4c8-958df7ea1acc"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule01.mtl": {
+      "time": 1698307049138.8672,
+      "uuid": "67df1553-0508-47a7-956a-cf0590524915"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule01.png": {
+      "time": 1626077372000,
+      "uuid": "11a1ad54-35af-4cde-8048-74b1754b9d13"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule02.mtl": {
+      "time": 1698307049153.505,
+      "uuid": "84cbd56b-7cf8-4dac-af6b-fa765248f7b9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/common.pac": {
+      "time": 1626077372000,
+      "uuid": "c411b68b-3ded-4f59-beb2-592bcdbead8c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonBtnGreen.png": {
+      "time": 1626077372000,
+      "uuid": "b240cd80-2972-43d7-81fa-e5f1a925e7ea"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonBtnYellow.png": {
+      "time": 1626077372000,
+      "uuid": "3b9af972-08d7-4688-8b7c-18ce4feefa71"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonIconClose.png": {
+      "time": 1626077372000,
+      "uuid": "5c73e467-d3e9-46fd-b27f-80b14af86ab9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonIconClose02.png": {
+      "time": 1626077372000,
+      "uuid": "1711c026-e79e-42b9-a86f-bf947e359376"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle1.png": {
+      "time": 1626077372000,
+      "uuid": "dc01334b-9e8c-4595-a6c9-4c82a2e4e12e"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle2.png": {
+      "time": 1626077372000,
+      "uuid": "777dfcfd-d1ae-44b5-9f9f-60a70ecbba46"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle8.png": {
+      "time": 1626077372000,
+      "uuid": "72b18307-3fd6-4639-a9ec-eccfb57021dc"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonTitle01.png": {
+      "time": 1626077372000,
+      "uuid": "6d1fdc16-30cb-41a6-939f-4e8412493bef"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fight.pac": {
+      "time": 1626077372000,
+      "uuid": "2aefbb47-21d9-4359-99c6-0fc1b26a3be2"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightBoxNumber.png": {
+      "time": 1626077372000,
+      "uuid": "cb98f2e3-f9d1-43ec-8202-b877ae14b896"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightCircle.png": {
+      "time": 1626077372000,
+      "uuid": "47b82627-6e2f-4f69-85aa-d3bff7eb60fa"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgArrow.png": {
+      "time": 1626077372000,
+      "uuid": "21e113b6-35e7-4e38-9438-652bb2410caa"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgArrow2.png": {
+      "time": 1626077372000,
+      "uuid": "5ddf1ad6-2fba-4303-9861-40b203fa1665"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgHand.png": {
+      "time": 1626077372000,
+      "uuid": "700383d2-81af-4e65-bc16-d0042784e28f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightLineGray.png": {
+      "time": 1626077372000,
+      "uuid": "ccd19ae0-0a84-4f66-894e-96741c295820"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightLineRed.png": {
+      "time": 1626077372000,
+      "uuid": "3d342da6-8d74-4ebb-8aad-a643d1a6b39f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightScore.png": {
+      "time": 1626077372000,
+      "uuid": "b70b71bd-411b-448f-a01c-359492c99f74"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/wave.png": {
+      "time": 1626077372000,
+      "uuid": "c216e043-a577-4065-8099-c75d6a514df4"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/home.pac": {
+      "time": 1626077372000,
+      "uuid": "00f88bb4-a6aa-4194-875f-cee9a142af89"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG.jpg": {
+      "time": 1626077372000,
+      "uuid": "8fbd1253-037e-45c5-9c5a-95b787be783c"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG02.jpg": {
+      "time": 1626077372000,
+      "uuid": "0aeb0da9-3705-44e0-bc33-f5dcf0b03664"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG03.jpg": {
+      "time": 1626077372000,
+      "uuid": "859d65df-d7f2-4a20-99ff-f5f3675a0ea1"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxAD.png": {
+      "time": 1626077372000,
+      "uuid": "72476ef4-b9c1-477c-b6e0-58a4c2cfdc93"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxArrow.png": {
+      "time": 1626077372000,
+      "uuid": "78af3198-c986-4aea-a3f3-394291d2d9db"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxGames02.png": {
+      "time": 1626077372000,
+      "uuid": "7992cb14-125e-4702-9406-25f00aa66161"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeImgLogo.png": {
+      "time": 1626077372000,
+      "uuid": "796d0924-0bcc-4139-b3b3-be361cbb396a"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio/music/background.mp3": {
+      "time": 1626077372000,
+      "uuid": "9224b08e-5897-4e3f-99a0-dc09ba2cb894"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl": {
+      "time": 1698307049274.0535,
+      "uuid": "2bc2cdeb-90e0-42e3-8628-f89fe926e26f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl": {
+      "time": 1698307049282.2385,
+      "uuid": "bbaa0a24-e1ac-43be-acb3-4b6b4c26f8e9"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio/sound/click.mp3": {
+      "time": 1626077372000,
+      "uuid": "b1be0680-60d6-4bec-8ebd-5adf6582c04b"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/common/tips.prefab": {
+      "time": 1698307049307.634,
+      "uuid": "7be81a67-ffb4-489d-a543-2d3b6ade9012"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/ball.prefab": {
+      "time": 1698307049307.461,
+      "uuid": "cc2ffa4e-b16d-46bd-9158-4b0771cc9164"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/board.prefab": {
+      "time": 1698307049307.776,
+      "uuid": "b79f42a5-4f07-494c-a19c-3da4334841ee"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/center.prefab": {
+      "time": 1698307049309.8813,
+      "uuid": "267f7205-58c7-475a-82b3-c1f3b8ccf44d"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/diamond.prefab": {
+      "time": 1698307049344.258,
+      "uuid": "b6748d39-c104-499d-a5ae-0cd66aa73ea7"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/effectDiamond01.prefab": {
+      "time": 1698307049354.517,
+      "uuid": "b1fc9a91-ec8c-4c7a-9dc3-3f99f18c39fd"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/effectLight01.prefab": {
+      "time": 1698307049354.6123,
+      "uuid": "519290e7-9d06-4212-9d54-e28a7c2a6b05"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/revive.prefab": {
+      "time": 1698307049354.5635,
+      "uuid": "6a08c183-cb9d-4b05-b9ca-6d5d1581ad5f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/scoreAni.prefab": {
+      "time": 1698307049357.1973,
+      "uuid": "1f858a4c-edcf-4051-b871-9d7c35137ead"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/springHelix.prefab": {
+      "time": 1698307049390.359,
+      "uuid": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/springTop.prefab": {
+      "time": 1698307049397.8782,
+      "uuid": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/trail01.prefab": {
+      "time": 1698307049397.9348,
+      "uuid": "f64b6551-9ede-40a5-b41d-f3d3884af22f"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/wave.prefab": {
+      "time": 1698307049399.4954,
+      "uuid": "5541ce13-119d-46e4-93df-7a2da2fe3c88"
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/ballHigh011.mtl.meta": {
+      "time": 1698307028802.7427
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/center.mtl.meta": {
+      "time": 1698307028827.956
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond1.mtl.meta": {
+      "time": 1698307028836.9001
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/redDot.anim.meta": {
+      "time": 1698307028847.1863
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/scene/main.scene.meta": {
+      "time": 1698307028861.359
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/start.anim.meta": {
+      "time": 1698307028846.2224
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond2.mtl.meta": {
+      "time": 1698307028849.1243
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane.mtl.meta": {
+      "time": 1698307028850.848
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane1.mtl.meta": {
+      "time": 1698307028866.6343
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane2.mtl.meta": {
+      "time": 1698307028877.492
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate01.mtl.meta": {
+      "time": 1698307028879.6572
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate02.mtl.meta": {
+      "time": 1698307028881.5522
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring01.mtl.meta": {
+      "time": 1698307028885.4622
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring02.mtl.meta": {
+      "time": 1698307028887.6296
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/wave.mtl.meta": {
+      "time": 1698307028889.7637
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight/score.anim.meta": {
+      "time": 1698307034591.211
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/animation/fight/tips.anim.meta": {
+      "time": 1698307034589.0913
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ballGreen01.png.meta": {
+      "time": 1698307034600.3079
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ballHigh01.png.meta": {
+      "time": 1698307034602.1565
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/singleColor.png.meta": {
+      "time": 1698307034590.5989
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.anim.meta": {
+      "time": 1698307037552.059
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.jpg.meta": {
+      "time": 1698307040503.8374
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/planeBg01.FBX.meta": {
+      "time": 1698307037594.5996
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/ball/ball.FBX.meta": {
+      "time": 1698307046653.3877
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate01.jpg.meta": {
+      "time": 1698307043731.9255
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/diamond01.fbx.meta": {
+      "time": 1698307046650.4429
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.prefab.meta": {
+      "time": 1698307049136.4036
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.jpg.meta": {
+      "time": 1698307046676.328
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate01.FBX.meta": {
+      "time": 1698307046665.7166
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/ballLight01.anim.meta": {
+      "time": 1698307049149.0566
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule01.mtl.meta": {
+      "time": 1698307049145.894
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/plate01/plate02.FBX.meta": {
+      "time": 1698307049133.0151
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule02.mtl.meta": {
+      "time": 1698307049158.3945
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/common.pac.meta": {
+      "time": 1698307049156.9744
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/effectLight01.png.meta": {
+      "time": 1698307049150.367
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring01.FBX.meta": {
+      "time": 1698307049168.4604
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule01.png.meta": {
+      "time": 1698307049156.5989
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonBtnGreen.png.meta": {
+      "time": 1698307049174.8723
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonBtnYellow.png.meta": {
+      "time": 1698307049175.6174
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonIconClose.png.meta": {
+      "time": 1698307049185.346
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/sping01/spring02.FBX.meta": {
+      "time": 1698307049206.8687
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonIconClose02.png.meta": {
+      "time": 1698307049195.5437
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fight.pac.meta": {
+      "time": 1698307049212.6797
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle1.png.meta": {
+      "time": 1698307049214.4956
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle2.png.meta": {
+      "time": 1698307049213.7957
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonRectangle8.png.meta": {
+      "time": 1698307049217.45
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightBoxNumber.png.meta": {
+      "time": 1698307049230.3984
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/common/commonTitle01.png.meta": {
+      "time": 1698307049220.297
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightCircle.png.meta": {
+      "time": 1698307049240.4417
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgArrow.png.meta": {
+      "time": 1698307049238.1975
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgArrow2.png.meta": {
+      "time": 1698307049235.4136
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightImgHand.png.meta": {
+      "time": 1698307049241.282
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightLineGray.png.meta": {
+      "time": 1698307049253.5217
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/home.pac.meta": {
+      "time": 1698307049243.9446
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/wave.png.meta": {
+      "time": 1698307049252.976
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightScore.png.meta": {
+      "time": 1698307049250.813
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG02.jpg.meta": {
+      "time": 1698307049263.8752
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG.jpg.meta": {
+      "time": 1698307049258.1206
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/fight/fightLineRed.png.meta": {
+      "time": 1698307049257.0217
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBG03.jpg.meta": {
+      "time": 1698307049265.0957
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxAD.png.meta": {
+      "time": 1698307049277.9648
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxArrow.png.meta": {
+      "time": 1698307049269.0605
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl.meta": {
+      "time": 1698307049281.7114
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl.meta": {
+      "time": 1698307049291.965
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/audio/music/background.mp3.meta": {
+      "time": 1698307049282.6477
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeBoxGames02.png.meta": {
+      "time": 1698307049284.1902
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/texture/home/homeImgLogo.png.meta": {
+      "time": 1698307049300.1174
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/common/tips.prefab.meta": {
+      "time": 1698307049310.1516
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/ball.prefab.meta": {
+      "time": 1698307049309.5066
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/audio/sound/click.mp3.meta": {
+      "time": 1698307049308.4536
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/board.prefab.meta": {
+      "time": 1698307049311.9785
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/center.prefab.meta": {
+      "time": 1698307049342.5916
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/diamond.prefab.meta": {
+      "time": 1698307049354.8997
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/effectDiamond01.prefab.meta": {
+      "time": 1698307049363.4805
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/effectLight01.prefab.meta": {
+      "time": 1698307049364.529
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/revive.prefab.meta": {
+      "time": 1698307049366.568
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/scoreAni.prefab.meta": {
+      "time": 1698307049367.7114
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/springHelix.prefab.meta": {
+      "time": 1698307049398.4915
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/springTop.prefab.meta": {
+      "time": 1698307049400.7515
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/trail01.prefab.meta": {
+      "time": 1698307049402.216
+    },
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/resources/package/prefab/fight/wave.prefab.meta": {
+      "time": 1698307049403.4102
+    }
+  },
+  "missing": {}
+}

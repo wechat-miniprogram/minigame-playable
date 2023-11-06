@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "commonRectangle8",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 400,
+      "height": 53
+    },
+    "offset": {
+      "x": 0,
+      "y": 2.5
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 60
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -200,
+        -26.5,
+        0,
+        200,
+        -26.5,
+        0,
+        -200,
+        26.5,
+        0,
+        200,
+        26.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        59,
+        400,
+        59,
+        0,
+        6,
+        400,
+        6
+      ],
+      "nuv": [
+        0,
+        0.1,
+        1,
+        0.1,
+        0,
+        0.9833333333333333,
+        1,
+        0.9833333333333333
+      ],
+      "minPos": {
+        "x": -200,
+        "y": -26.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 200,
+        "y": 26.5,
+        "z": 0
+      }
+    },
+    "texture": "72b18307-3fd6-4639-a9ec-eccfb57021dc@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

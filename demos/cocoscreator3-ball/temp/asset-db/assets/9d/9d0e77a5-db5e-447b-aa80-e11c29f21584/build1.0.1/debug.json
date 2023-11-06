@@ -1,0 +1,87 @@
+[
+    1,
+    [
+        "8fbd1253-037e-45c5-9c5a-95b787be783c@6c48a",
+        "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            0,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "plane",
+            [
+                {
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    },
+                    "depthStencilState": {},
+                    "rasterizerState": {}
+                }
+            ],
+            [
+                {
+                    "USE_ALBEDO_MAP": true,
+                    "OCCLUSION_CHANNEL": "b",
+                    "ROUGHNESS_CHANNEL": "r",
+                    "METALLIC_CHANNEL": "g"
+                }
+            ],
+            [
+                [
+                    [
+                        {
+                            "roughness": 0.8,
+                            "metallic": 0.6
+                        },
+                        "mainTexture",
+                        6,
+                        0
+                    ]
+                ],
+                11
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

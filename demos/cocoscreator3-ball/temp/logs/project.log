@@ -1,0 +1,710 @@
+10-26-2023 16:13:49 - log: Load engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine
+10-26-2023 16:13:50 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,gfx-webgl,light-probe,marionette,particle,physics-ammo,primitive,skeletal-animation,terrain,tiled-map,tween,ui,video)
+10-26-2023 16:13:50 - log: Register native engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+10-26-2023 16:14:09 - log: [Im-plugin] Check im-plugin version.
+10-26-2023 16:14:24 - info: [Scene] [PHYSICS]: using builtin.
+10-26-2023 16:14:24 - log: [Scene] Cocos Creator v3.8.0
+10-26-2023 16:14:24 - info: [Scene] Forward render pipeline initialized.
+10-26-2023 16:14:25 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/68/cce:/internal/x/prerequisite-imports:8:13
+10-26-2023 16:14:25 - warn: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.Error: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+10-26-2023 16:14:25 - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+10-26-2023 16:14:27 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+10-26-2023 16:14:27 - warn: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.Error: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+10-26-2023 16:14:27 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+10-26-2023 16:14:27 - warn: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.Error: [Scene] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.
+    at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)
+    at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)
+    at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+    at doExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+10-26-2023 16:14:48 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+10-26-2023 16:14:48 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+10-26-2023 16:15:35 - log: wechatgame 构建模板生成成功！({link(/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/build-templates/wechatgame)})
+10-26-2023 16:15:59 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+10-26-2023 16:15:59 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+10-26-2023 16:16:05 - warn: [Window] An object could not be cloned.Error: An object could not be cloned.
+    at EventEmitter.i.send (electron/js2c/renderer_init.js:73:259)
+    at MainSender.immediately (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-base-ipc/dist/sender.ccc:1:1306)
+    at Immediate._onImmediate (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-base-ipc/dist/sender.ccc:1:1219)
+    at processImmediate (internal/timers.js:461:21)
+10-26-2023 16:18:09 - warn: [Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.[Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+10-26-2023 16:18:09 - warn: [Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.[Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+10-26-2023 16:18:09 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:09 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:09 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:09 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:09 - error: [Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+[Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:18:09 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:18:09 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:18:09 - error: [Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+[Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:18:09 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:18:41 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:18:41 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:41 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:41 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:41 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:44 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:44 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:44 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:44 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:18:44 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:19:38 - warn: [Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.[Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+10-26-2023 16:19:38 - warn: [Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.[Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+10-26-2023 16:19:38 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:19:38 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:19:38 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:19:38 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:19:38 - error: [Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+[Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:19:38 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:19:38 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:19:38 - error: [Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+[Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:19:38 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:20:08 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:20:08 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:08 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:08 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:08 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:12 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:12 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:12 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:12 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:20:12 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:29:26 - warn: [Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.[Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/03/036690a3025b498d790af01360ed59cd84071a6f.js:66:7)
+10-26-2023 16:29:26 - warn: [Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.[Assets] 'WidgetComponent' is deprecated since v1.2.0, please use 'Widget' instead.  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164594:12)  
+at warnID (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:164807:5)  
+at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183313:7)  
+at __checkObsolete__ (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:183333:7)  
+at Object.execute (file:///Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/programming/packer-driver/targets/editor/chunks/ae/aeaa6723cc29e88f83b2fb162685b8d5e4f91c89.js:40:7)
+10-26-2023 16:29:26 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:29:26 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:29:26 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:29:26 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:29:26 - error: [Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+[Assets] Script "a8ea21AQ5VOi53ARZITf/lE" attached to "tips" is missing or invalid. Detailed information:
+Node path: "tips"
+Script UUID: "a8ea2d40-4395-4e8b-9dc0-4592137ff944"
+Class ID: "a8ea21AQ5VOi53ARZITf/lE"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:29:26 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "skip" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive/skip"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:29:26 - error: [Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+[Assets] Script "02dfdpeQrlBM7i/TNH9UPBo" attached to "btnRevive" is missing or invalid. Detailed information:
+Node path: "revive/btnRevive"
+Script UUID: "02dfda5e-42b9-4133-b8bf-4cd1fd50f068"
+Class ID: "02dfdpeQrlBM7i/TNH9UPBo"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:29:26 - error: [Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+[Assets] Script "5cc91kN0I1FiY/o1w17jR3D" attached to "revive" is missing or invalid. Detailed information:
+Node path: "revive"
+Script UUID: "5cc9190d-d08d-4589-8fe8-d70d7b8d1dc3"
+Class ID: "5cc91kN0I1FiY/o1w17jR3D"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at Object.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at NewConsole.error (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1828)  
+at report (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)  
+at reportByWalker (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+10-26-2023 16:29:26 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:30:00 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)
+10-26-2023 16:30:00 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:00 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:00 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:00 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:04 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:04 - warn: [Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo[Assets] Missing class: 02dfdpeQrlBM7i/TNH9UPBo  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:04 - warn: [Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D[Assets] Missing class: 5cc91kN0I1FiY/o1w17jR3D  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:04 - warn: [Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE[Assets] Missing class: a8ea21AQ5VOi53ARZITf/lE  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)  
+at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41550:30)  
+at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41491:29)  
+at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:41703:38)
+10-26-2023 16:30:04 - warn: [Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+[Assets] The Asset used by component "cc.PrefabLink" in scene "main" is missing. Detailed information:
+Node path: "planeBg01"
+Asset url: "db://assets/scene/main"
+Missing uuid: "80bf90f7-8567-4e82-8820-df7470d17e85@0d726"
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1946)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:1:1535)

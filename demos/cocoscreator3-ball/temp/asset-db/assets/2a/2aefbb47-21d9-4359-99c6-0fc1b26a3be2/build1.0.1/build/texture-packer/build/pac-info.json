@@ -1,0 +1,171 @@
+{
+  "md5": "28cc9",
+  "versionDev": "1.0.2",
+  "sharpMd5": "a640b",
+  "result": {
+    "atlases": [
+      {
+        "spriteFrameInfos": [
+          {
+            "name": "fightLineRed",
+            "uuid": "3d342da6-8d74-4ebb-8aad-a643d1a6b39f@f9941",
+            "imageUuid": "3d342da6-8d74-4ebb-8aad-a643d1a6b39f",
+            "textureUuid": "3d342da6-8d74-4ebb-8aad-a643d1a6b39f@6c48a",
+            "trim": {
+              "rotatedWidth": 308,
+              "rotatedHeight": 308,
+              "x": 3,
+              "y": 3,
+              "width": 308,
+              "height": 308
+            },
+            "rawWidth": 308,
+            "rawHeight": 308,
+            "width": 314,
+            "height": 314,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/3d/3d342da6-8d74-4ebb-8aad-a643d1a6b39f.png",
+            "rotated": false,
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 314,
+            "rotatedHeight": 314
+          },
+          {
+            "name": "fightImgArrow2",
+            "uuid": "5ddf1ad6-2fba-4303-9861-40b203fa1665@f9941",
+            "imageUuid": "5ddf1ad6-2fba-4303-9861-40b203fa1665",
+            "textureUuid": "5ddf1ad6-2fba-4303-9861-40b203fa1665@6c48a",
+            "trim": {
+              "rotatedWidth": 52,
+              "rotatedHeight": 37,
+              "x": 317,
+              "y": 3,
+              "width": 52,
+              "height": 37
+            },
+            "rawWidth": 52,
+            "rawHeight": 37,
+            "width": 58,
+            "height": 43,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/5d/5ddf1ad6-2fba-4303-9861-40b203fa1665.png",
+            "rotated": false,
+            "x": 314,
+            "y": 0,
+            "rotatedWidth": 58,
+            "rotatedHeight": 43
+          },
+          {
+            "name": "fightLineGray",
+            "uuid": "ccd19ae0-0a84-4f66-894e-96741c295820@f9941",
+            "imageUuid": "ccd19ae0-0a84-4f66-894e-96741c295820",
+            "textureUuid": "ccd19ae0-0a84-4f66-894e-96741c295820@6c48a",
+            "trim": {
+              "rotatedWidth": 308,
+              "rotatedHeight": 308,
+              "x": 3,
+              "y": 317,
+              "width": 308,
+              "height": 308
+            },
+            "rawWidth": 308,
+            "rawHeight": 308,
+            "width": 314,
+            "height": 314,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/cc/ccd19ae0-0a84-4f66-894e-96741c295820.png",
+            "rotated": false,
+            "x": 0,
+            "y": 314,
+            "rotatedWidth": 314,
+            "rotatedHeight": 314
+          },
+          {
+            "name": "fightCircle",
+            "uuid": "47b82627-6e2f-4f69-85aa-d3bff7eb60fa@f9941",
+            "imageUuid": "47b82627-6e2f-4f69-85aa-d3bff7eb60fa",
+            "textureUuid": "47b82627-6e2f-4f69-85aa-d3bff7eb60fa@6c48a",
+            "trim": {
+              "rotatedWidth": 271,
+              "rotatedHeight": 271,
+              "x": 3,
+              "y": 631,
+              "width": 271,
+              "height": 271
+            },
+            "rawWidth": 271,
+            "rawHeight": 271,
+            "width": 277,
+            "height": 277,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/47/47b82627-6e2f-4f69-85aa-d3bff7eb60fa.png",
+            "rotated": false,
+            "x": 0,
+            "y": 628,
+            "rotatedWidth": 277,
+            "rotatedHeight": 277
+          },
+          {
+            "name": "fightImgArrow",
+            "uuid": "21e113b6-35e7-4e38-9438-652bb2410caa@f9941",
+            "imageUuid": "21e113b6-35e7-4e38-9438-652bb2410caa",
+            "textureUuid": "21e113b6-35e7-4e38-9438-652bb2410caa@6c48a",
+            "trim": {
+              "rotatedWidth": 89,
+              "rotatedHeight": 297,
+              "x": 280,
+              "y": 631,
+              "width": 297,
+              "height": 89
+            },
+            "rawWidth": 297,
+            "rawHeight": 89,
+            "width": 303,
+            "height": 95,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/21/21e113b6-35e7-4e38-9438-652bb2410caa.png",
+            "rotated": true,
+            "x": 277,
+            "y": 628,
+            "rotatedWidth": 95,
+            "rotatedHeight": 303
+          },
+          {
+            "name": "fightImgHand",
+            "uuid": "700383d2-81af-4e65-bc16-d0042784e28f@f9941",
+            "imageUuid": "700383d2-81af-4e65-bc16-d0042784e28f",
+            "textureUuid": "700383d2-81af-4e65-bc16-d0042784e28f@6c48a",
+            "trim": {
+              "rotatedWidth": 119,
+              "rotatedHeight": 98,
+              "x": 3,
+              "y": 908,
+              "width": 98,
+              "height": 119
+            },
+            "rawWidth": 98,
+            "rawHeight": 119,
+            "width": 104,
+            "height": 125,
+            "originalPath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/library/70/700383d2-81af-4e65-bc16-d0042784e28f.png",
+            "rotated": true,
+            "x": 0,
+            "y": 905,
+            "rotatedWidth": 125,
+            "rotatedHeight": 104
+          }
+        ],
+        "width": 372,
+        "height": 1009,
+        "name": "fight.pac-0",
+        "imagePath": "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/temp/asset-db/assets/2a/2aefbb47-21d9-4359-99c6-0fc1b26a3be2/build1.0.1/build/texture-packer/build/1b837b0dd.png",
+        "imageUuid": "1b837b0dd",
+        "textureUuid": "1b837b0dd@6c48a",
+        "compressed": {
+          "imagePathNoExt": "",
+          "suffixs": [
+            ".png"
+          ]
+        }
+      }
+    ],
+    "unpackedImages": [],
+    "pacUuid": "2aefbb47-21d9-4359-99c6-0fc1b26a3be2"
+  }
+}

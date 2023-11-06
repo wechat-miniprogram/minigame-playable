@@ -1,0 +1,100 @@
+{
+  "uuid": {
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/center.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/ballHigh011.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/diamond2.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plane2.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate01.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/plate02.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring01.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/spring02.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/material/wave.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule01.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/trail/trailModule02.mtl": [
+      "17debcc3-0a6b-4b8a-b00b-dc58b885581e"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Downloads/cocos-example-ball-master/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/ballHigh011.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/center.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/diamond2.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plane2.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate01.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/plate02.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring01.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/spring02.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/material/wave.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule01.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/trail/trailModule02.mtl": [
+      "17debcc3-0a6b-4b8a-b00b-dc58b885581e"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material #25.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/yuanzimin/Files/minigame-playable/demos/cocoscreator3-ball/assets/res/model/diamond01/Materials_diamond01/Material--25.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ]
+  }
+}

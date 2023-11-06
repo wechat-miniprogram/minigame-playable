@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightImgArrow",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 297,
+      "height": 89
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 297,
+      "height": 89
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -148.5,
+        -44.5,
+        0,
+        148.5,
+        -44.5,
+        0,
+        -148.5,
+        44.5,
+        0,
+        148.5,
+        44.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        89,
+        297,
+        89,
+        0,
+        0,
+        297,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -148.5,
+        "y": -44.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 148.5,
+        "y": 44.5,
+        "z": 0
+      }
+    },
+    "texture": "21e113b6-35e7-4e38-9438-652bb2410caa@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

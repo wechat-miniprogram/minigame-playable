@@ -1,0 +1,87 @@
+[
+    1,
+    [
+        "c216e043-a577-4065-8099-c75d6a514df4@6c48a",
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_techIdx",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            -1,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "wave",
+            "1",
+            [
+                {
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    },
+                    "depthStencilState": {
+                        "depthWrite": false
+                    },
+                    "rasterizerState": {}
+                }
+            ],
+            [
+                {
+                    "USE_TEXTURE": true,
+                    "USE_COLOR": true
+                }
+            ],
+            [
+                [
+                    [
+                        {},
+                        "mainTexture",
+                        6,
+                        0
+                    ]
+                ],
+                11
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]
