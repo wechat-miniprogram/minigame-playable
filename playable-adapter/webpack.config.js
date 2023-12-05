@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     [path.join('.', 'dist', 'playable-adapter')]: './src/index.ts',
     [path.join('..', 'demos', 'cocoscreator3-ball', 'build-templates', 'wechatgame', 'playable-adapter')]: './src/index.ts',
+    [path.join('..', 'demos', 'minigame-demo', 'playableDemo', 'playable-adapter')]: './src/index.ts',
   },
   output: {
     path: path.resolve(__dirname, ''),
