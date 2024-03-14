@@ -1,5 +1,5 @@
 
-export function fixDeviceAPI() {
+export function fixGlobalAPI() {
   // 真机没有以下接口，需要适配
   if (!wx.onHide) {
     wx.onHide = function() {}

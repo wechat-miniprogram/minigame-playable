@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "minigame-api-typings": "^3.8.4",
     "ts-loader": "^9.4.3",
     "typescript": "^5.2.2",
     "webpack": "^5.89.0",

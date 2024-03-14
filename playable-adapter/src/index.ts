@@ -7,7 +7,7 @@ import { fixGetSystemInfoSync } from './getSystemInfoSync';
 import { fixWXWebAssembly } from './WXWebAssembly';
 import { fixLoadFont } from './loadFont';
 import { fixCreateInnerAudioContext } from './createInnerAudioContext';
-import { fixDeviceAPI } from './device';
+import { fixGlobalAPI } from './global';
 import { fixCreateCanvas } from './createCanvas';
 interface IAdapterConfig {
   userPathPrefix: string;
@@ -21,6 +21,7 @@ export class PlayableAdapter {
 
     globalConfig.userPathPrefix = userPathPrefix;
 
+    fixGlobalAPI();
     fixCreateImage();
     fixGetSystemInfoSync();
     fixGetOpenDataContext();
@@ -28,7 +29,6 @@ export class PlayableAdapter {
     fixWXWebAssembly();
     fixLoadFont();
     fixCreateInnerAudioContext();
-    fixDeviceAPI();
     fixCreateCanvas();
 
     console.log(`[playable-adapter]: inited!`);

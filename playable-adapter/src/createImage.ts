@@ -7,7 +7,7 @@ export class ImageWrapper {
   public tagName = 'IMG';
   public nodeName = 'IMG';
 
-  constructor(img: HTMLImageElement) {
+  constructor(img: WechatMinigame.Image) {
     imageMap.set(this, img)
   }
 

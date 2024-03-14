@@ -237,7 +237,7 @@ function fixGetFileSystemManager() {
             Reflect.defineProperty(fs, 'access', {
                 value: function (args) {
                     if (args.success && typeof args.success === 'function') {
-                        args.success();
+                        args.success({ errMsg: 'access:ok', errCode: 0 });
                     }
                 },
                 configurable: true,
@@ -265,7 +265,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function fixGetOpenDataContext() {
     // cocos 依赖这个 api 来判断小游戏环境，mock 一下
-    wx.getOpenDataContext = function () { };
+    wx.getOpenDataContext = function () {
+        return undefined;
+    };
 }
 
 
@@ -285,6 +287,10 @@ function fixGetSystemInfoSync() {
             // 开发者工具上有platform，真机没有
             if (!ret.platform) {
                 ret.platform = ret.model && ret.model.includes('iPhone') ? 'ios' : 'android';
+            }
+            // 全局未注入devicePixelRatio
+            if (!GameGlobal.devicePixelRatio) {
+                GameGlobal.devicePixelRatio = ret.pixelRatio;
             }
             return ret;
         },
@@ -420,9 +426,9 @@ function fixCreateInnerAudioContext() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   fixDeviceAPI: () => (/* binding */ fixDeviceAPI)
+/* harmony export */   fixGlobalAPI: () => (/* binding */ fixGlobalAPI)
 /* harmony export */ });
-function fixDeviceAPI() {
+function fixGlobalAPI() {
     // 真机没有以下接口，需要适配
     if (!wx.onHide) {
         wx.onHide = function () { };
@@ -649,7 +655,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _WXWebAssembly__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
 /* harmony import */ var _loadFont__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
 /* harmony import */ var _createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8);
-/* harmony import */ var _device__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
+/* harmony import */ var _global__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
 /* harmony import */ var _createCanvas__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(10);
 
 
@@ -666,6 +672,7 @@ var PlayableAdapter = /** @class */ (function () {
         var userPathPrefix = config.userPathPrefix;
         console.log('config', config);
         _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix = userPathPrefix;
+        (0,_global__WEBPACK_IMPORTED_MODULE_8__.fixGlobalAPI)();
         (0,_createImage__WEBPACK_IMPORTED_MODULE_1__.fixCreateImage)();
         (0,_getSystemInfoSync__WEBPACK_IMPORTED_MODULE_4__.fixGetSystemInfoSync)();
         (0,_getOpenDataContext__WEBPACK_IMPORTED_MODULE_3__.fixGetOpenDataContext)();
@@ -673,7 +680,6 @@ var PlayableAdapter = /** @class */ (function () {
         (0,_WXWebAssembly__WEBPACK_IMPORTED_MODULE_5__.fixWXWebAssembly)();
         (0,_loadFont__WEBPACK_IMPORTED_MODULE_6__.fixLoadFont)();
         (0,_createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__.fixCreateInnerAudioContext)();
-        (0,_device__WEBPACK_IMPORTED_MODULE_8__.fixDeviceAPI)();
         (0,_createCanvas__WEBPACK_IMPORTED_MODULE_9__.fixCreateCanvas)();
         console.log("[playable-adapter]: inited!");
     }
