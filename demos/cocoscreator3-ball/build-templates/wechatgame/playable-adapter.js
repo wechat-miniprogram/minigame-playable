@@ -393,27 +393,32 @@ function fixCreateInnerAudioContext() {
     Reflect.defineProperty(wx, 'createInnerAudioContext', {
         value: function () {
             var innerAudio = originApi();
-            var ownProp = Object.getOwnPropertyNames(innerAudio);
-            var audioProto = Object.getPrototypeOf(innerAudio);
-            var srcDesc;
-            if (ownProp.includes('src')) {
-                srcDesc = Reflect.getOwnPropertyDescriptor(innerAudio, 'src');
+            // 获取原有属性的描述符
+            var originalDescriptor = Object.getOwnPropertyDescriptor(innerAudio, 'src');
+            /**
+             * 低版本的试玩基础库音频实例的属性是不能通过 Object.defineProperty 重定义的
+             * 高版本基础库修复了这个问题，因此针对低版本基础库做一个提示
+             */
+            if (!originalDescriptor.configurable) {
+                console.error("[playable-adapter]: \u5F53\u524D\u57FA\u7840\u5E93\u97F3\u9891\u4E0D\u53EF\u9002\u914D\uFF0C\u8BF7\u624B\u52A8\u7ED9\u97F3\u9891\u7684src\u52A0\u4E0A\u72EC\u7ACB\u5206\u5305\u7684\u524D\u7F00".concat(_config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix, "!"));
             }
             else {
-                srcDesc = Reflect.getOwnPropertyDescriptor(audioProto, 'src');
-            }
-            var audioProxy = new Proxy({}, {
-                set: function (t, p, v, r) {
-                    if (p === 'src') {
-                        v = _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix + v;
+                Object.defineProperty(innerAudio, 'src', {
+                    get: function () {
+                        return originalDescriptor.get.call(this);
+                    },
+                    set: function (value) {
+                        // 如果已经手动加过前缀了，不需要重复添加
+                        if (value.indexOf(_config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix) === -1) {
+                            originalDescriptor.set.call(this, _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix + value);
+                        }
+                        else {
+                            originalDescriptor.set.call(this, value);
+                        }
                     }
-                    return Reflect.set(innerAudio, p, v, innerAudio);
-                },
-                get: function (t, p, r) {
-                    return Reflect.get(innerAudio, p, innerAudio);
-                }
-            });
-            return audioProxy;
+                });
+            }
+            return innerAudio;
         },
         configurable: true,
     });
@@ -443,6 +448,7 @@ function fixGlobalAPI() {
     }
     var timeLabel = new Map();
     var latestTime = 0;
+    // DOM和小游戏类型定义冲突
     if (!console.time) {
         console.time = function (label) {
             if (label) {
@@ -681,6 +687,8 @@ var PlayableAdapter = /** @class */ (function () {
         (0,_loadFont__WEBPACK_IMPORTED_MODULE_6__.fixLoadFont)();
         (0,_createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__.fixCreateInnerAudioContext)();
         (0,_createCanvas__WEBPACK_IMPORTED_MODULE_9__.fixCreateCanvas)();
+        // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
+        wx.getSystemInfoSync();
         console.log("[playable-adapter]: inited!");
     }
     return PlayableAdapter;

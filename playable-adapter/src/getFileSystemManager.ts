@@ -1,7 +1,7 @@
 import globalConfig from './config';
 
 // 真机USER_DATA_PATH是'/'
-let userPathPrefix = wx.env.USER_DATA_PATH;
+const userPathPrefix = wx.env.USER_DATA_PATH;
 console.log('user path prefix, ', userPathPrefix)
 
 const originApi = wx.getFileSystemManager
@@ -47,7 +47,7 @@ export function fixGetFileSystemManager() {
       })
       // 引擎会向用户目录写缓存，加个空实现避免报错
       Reflect.defineProperty(fs, 'writeFileSync', {
-        value(args: any[]) {
+        value() {
 
         },
         configurable: true,

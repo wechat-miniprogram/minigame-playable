@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config ./webpack.config.js --watch"
+    "dev": "webpack --config ./webpack.config.js --watch",
+    "lint:fix": "eslint src/ -c .eslintrc.js --ext .ts --fix "
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "minigame-api-typings": "^3.8.4",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
     "eslint": "^8.55.0",
+    "minigame-api-typings": "^3.8.4",
     "ts-loader": "^9.4.3",
     "typescript": "^5.2.2",
     "webpack": "^5.89.0",

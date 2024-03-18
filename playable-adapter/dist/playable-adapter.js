@@ -388,7 +388,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
-var hasWarn = false;
 function fixCreateInnerAudioContext() {
     var originApi = wx.createInnerAudioContext;
     Reflect.defineProperty(wx, 'createInnerAudioContext', {
@@ -449,6 +448,7 @@ function fixGlobalAPI() {
     }
     var timeLabel = new Map();
     var latestTime = 0;
+    // DOM和小游戏类型定义冲突
     if (!console.time) {
         console.time = function (label) {
             if (label) {
@@ -687,6 +687,8 @@ var PlayableAdapter = /** @class */ (function () {
         (0,_loadFont__WEBPACK_IMPORTED_MODULE_6__.fixLoadFont)();
         (0,_createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__.fixCreateInnerAudioContext)();
         (0,_createCanvas__WEBPACK_IMPORTED_MODULE_9__.fixCreateCanvas)();
+        // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
+        wx.getSystemInfoSync();
         console.log("[playable-adapter]: inited!");
     }
     return PlayableAdapter;

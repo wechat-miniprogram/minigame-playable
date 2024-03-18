@@ -237,7 +237,7 @@ function fixGetFileSystemManager() {
             Reflect.defineProperty(fs, 'access', {
                 value: function (args) {
                     if (args.success && typeof args.success === 'function') {
-                        args.success();
+                        args.success({ errMsg: 'access:ok', errCode: 0 });
                     }
                 },
                 configurable: true,
@@ -265,7 +265,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function fixGetOpenDataContext() {
     // cocos 依赖这个 api 来判断小游戏环境，mock 一下
-    wx.getOpenDataContext = function () { };
+    wx.getOpenDataContext = function () {
+        return undefined;
+    };
 }
 
 
@@ -285,6 +287,10 @@ function fixGetSystemInfoSync() {
             // 开发者工具上有platform，真机没有
             if (!ret.platform) {
                 ret.platform = ret.model && ret.model.includes('iPhone') ? 'ios' : 'android';
+            }
+            // 全局未注入devicePixelRatio
+            if (!GameGlobal.devicePixelRatio) {
+                GameGlobal.devicePixelRatio = ret.pixelRatio;
             }
             return ret;
         },
@@ -387,27 +393,32 @@ function fixCreateInnerAudioContext() {
     Reflect.defineProperty(wx, 'createInnerAudioContext', {
         value: function () {
             var innerAudio = originApi();
-            var ownProp = Object.getOwnPropertyNames(innerAudio);
-            var audioProto = Object.getPrototypeOf(innerAudio);
-            var srcDesc;
-            if (ownProp.includes('src')) {
-                srcDesc = Reflect.getOwnPropertyDescriptor(innerAudio, 'src');
+            // 获取原有属性的描述符
+            var originalDescriptor = Object.getOwnPropertyDescriptor(innerAudio, 'src');
+            /**
+             * 低版本的试玩基础库音频实例的属性是不能通过 Object.defineProperty 重定义的
+             * 高版本基础库修复了这个问题，因此针对低版本基础库做一个提示
+             */
+            if (!originalDescriptor.configurable) {
+                console.error("[playable-adapter]: \u5F53\u524D\u57FA\u7840\u5E93\u97F3\u9891\u4E0D\u53EF\u9002\u914D\uFF0C\u8BF7\u624B\u52A8\u7ED9\u97F3\u9891\u7684src\u52A0\u4E0A\u72EC\u7ACB\u5206\u5305\u7684\u524D\u7F00".concat(_config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix, "!"));
             }
             else {
-                srcDesc = Reflect.getOwnPropertyDescriptor(audioProto, 'src');
-            }
-            var audioProxy = new Proxy({}, {
-                set: function (t, p, v, r) {
-                    if (p === 'src') {
-                        v = _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix + v;
+                Object.defineProperty(innerAudio, 'src', {
+                    get: function () {
+                        return originalDescriptor.get.call(this);
+                    },
+                    set: function (value) {
+                        // 如果已经手动加过前缀了，不需要重复添加
+                        if (value.indexOf(_config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix) === -1) {
+                            originalDescriptor.set.call(this, _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix + value);
+                        }
+                        else {
+                            originalDescriptor.set.call(this, value);
+                        }
                     }
-                    return Reflect.set(innerAudio, p, v, innerAudio);
-                },
-                get: function (t, p, r) {
-                    return Reflect.get(innerAudio, p, innerAudio);
-                }
-            });
-            return audioProxy;
+                });
+            }
+            return innerAudio;
         },
         configurable: true,
     });
@@ -420,9 +431,9 @@ function fixCreateInnerAudioContext() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   fixDeviceAPI: () => (/* binding */ fixDeviceAPI)
+/* harmony export */   fixGlobalAPI: () => (/* binding */ fixGlobalAPI)
 /* harmony export */ });
-function fixDeviceAPI() {
+function fixGlobalAPI() {
     // 真机没有以下接口，需要适配
     if (!wx.onHide) {
         wx.onHide = function () { };
@@ -437,6 +448,7 @@ function fixDeviceAPI() {
     }
     var timeLabel = new Map();
     var latestTime = 0;
+    // DOM和小游戏类型定义冲突
     if (!console.time) {
         console.time = function (label) {
             if (label) {
@@ -649,7 +661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _WXWebAssembly__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
 /* harmony import */ var _loadFont__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
 /* harmony import */ var _createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8);
-/* harmony import */ var _device__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
+/* harmony import */ var _global__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
 /* harmony import */ var _createCanvas__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(10);
 
 
@@ -666,6 +678,7 @@ var PlayableAdapter = /** @class */ (function () {
         var userPathPrefix = config.userPathPrefix;
         console.log('config', config);
         _config__WEBPACK_IMPORTED_MODULE_0__["default"].userPathPrefix = userPathPrefix;
+        (0,_global__WEBPACK_IMPORTED_MODULE_8__.fixGlobalAPI)();
         (0,_createImage__WEBPACK_IMPORTED_MODULE_1__.fixCreateImage)();
         (0,_getSystemInfoSync__WEBPACK_IMPORTED_MODULE_4__.fixGetSystemInfoSync)();
         (0,_getOpenDataContext__WEBPACK_IMPORTED_MODULE_3__.fixGetOpenDataContext)();
@@ -673,8 +686,9 @@ var PlayableAdapter = /** @class */ (function () {
         (0,_WXWebAssembly__WEBPACK_IMPORTED_MODULE_5__.fixWXWebAssembly)();
         (0,_loadFont__WEBPACK_IMPORTED_MODULE_6__.fixLoadFont)();
         (0,_createInnerAudioContext__WEBPACK_IMPORTED_MODULE_7__.fixCreateInnerAudioContext)();
-        (0,_device__WEBPACK_IMPORTED_MODULE_8__.fixDeviceAPI)();
         (0,_createCanvas__WEBPACK_IMPORTED_MODULE_9__.fixCreateCanvas)();
+        // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
+        wx.getSystemInfoSync();
         console.log("[playable-adapter]: inited!");
     }
     return PlayableAdapter;

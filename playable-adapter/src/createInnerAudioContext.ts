@@ -1,8 +1,6 @@
 
 import globalConfig from './config';
 
-let hasWarn = false;
-
 export function fixCreateInnerAudioContext() {
   const originApi = wx.createInnerAudioContext
   Reflect.defineProperty(wx, 'createInnerAudioContext', {

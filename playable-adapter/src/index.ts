@@ -30,6 +30,8 @@ export class PlayableAdapter {
     fixLoadFont();
     fixCreateInnerAudioContext();
     fixCreateCanvas();
+    // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
+    wx.getSystemInfoSync();
 
     console.log(`[playable-adapter]: inited!`);
   }

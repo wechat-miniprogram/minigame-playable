@@ -24,7 +24,7 @@ demos
 <img src="assets/images/balldemo.png" width="400"> <img src="assets/images/balldemo2.png" width="400">
 
 原始工程从小游戏构建为试玩只需要简单两步：
-1. 新建小游戏构建模板，在构建模板引入适配器，小游戏构建模板目录如下，其中 **playable-adapter.js** 文件来自 **dist/，playable-adapter.js**，详情可见下面小游戏试玩适配器(playable-adapter)介绍。
+1. 以Cocos Creator项目为例，新建小游戏构建模板，在构建模板引入适配器，小游戏构建模板目录如下`build-templates`，其中 **playable-adapter.js** 文件来自 **playable-adapter/dist/playable-adapter.js**，详情可见下面小游戏试玩适配器(playable-adapter)介绍。
 ```
 cocoscreator3-ball
  |--assets
@@ -63,7 +63,7 @@ new PlayableAdapter({
 
 1. 安装依赖
 ``` shell
-cd playable-demo && npm install
+cd playable-adapter && npm install
 ```
 
 2. 构建

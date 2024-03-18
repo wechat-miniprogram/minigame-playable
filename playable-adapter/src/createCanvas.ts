@@ -1,4 +1,4 @@
-import { imageMap, ImageWrapper } from './createImage';
+import { imageMap } from './createImage';
 
 function hookCanvas2d(originalContext: CanvasRenderingContext2D) {
   const drawApis = ['drawImage'];
