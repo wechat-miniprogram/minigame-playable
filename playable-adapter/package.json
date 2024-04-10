@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config ./webpack.config.js --watch",
-    "lint:fix": "eslint src/ -c .eslintrc.js --ext .ts --fix "
+    "dev": "npm run update:version && webpack --config ./webpack.config.js --watch",
+    "lint:fix": "eslint src/ -c .eslintrc.js --ext .ts --fix ",
+    "update:version": "node ./build/update-version.js"
   },
   "keywords": [],
   "author": "",

@@ -71,4 +71,4 @@ cd playable-adapter && npm install
 npm run dev
 ```
 
-构建后的文件为**dist/playable-adapter.js**。
+构建后的文件为**playable-adapter/dist/playable-adapter.js**。

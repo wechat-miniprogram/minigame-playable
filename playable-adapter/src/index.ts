@@ -1,4 +1,5 @@
 import globalConfig from './config';
+import { VERSION } from './const';
 
 import { fixCreateImage } from './createImage';
 import { fixGetFileSystemManager } from './getFileSystemManager';
@@ -9,6 +10,7 @@ import { fixLoadFont } from './loadFont';
 import { fixCreateInnerAudioContext } from './createInnerAudioContext';
 import { fixGlobalAPI } from './global';
 import { fixCreateCanvas } from './createCanvas';
+import { Logger } from './logger';
 interface IAdapterConfig {
   userPathPrefix: string;
 }
@@ -17,7 +19,7 @@ export class PlayableAdapter {
   constructor(config: IAdapterConfig) {
     const { userPathPrefix } = config;
 
-    console.log('config', config)
+    Logger.info('config', config)
 
     globalConfig.userPathPrefix = userPathPrefix;
 
@@ -33,6 +35,6 @@ export class PlayableAdapter {
     // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
     wx.getSystemInfoSync();
 
-    console.log(`[playable-adapter]: inited!`);
+    Logger.info(`v${VERSION} inited!`);
   }
 }

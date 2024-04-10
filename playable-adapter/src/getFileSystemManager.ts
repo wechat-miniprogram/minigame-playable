@@ -2,7 +2,6 @@ import globalConfig from './config';
 
 // 真机USER_DATA_PATH是'/'
 const userPathPrefix = wx.env.USER_DATA_PATH;
-console.log('user path prefix, ', userPathPrefix)
 
 const originApi = wx.getFileSystemManager
 

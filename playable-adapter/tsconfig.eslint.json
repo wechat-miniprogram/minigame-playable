@@ -3,6 +3,7 @@
   "include": [
     "src",
     "webpack.config.js",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "build"
   ]
 }
