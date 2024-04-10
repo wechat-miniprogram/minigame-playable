@@ -1,7 +1,6 @@
 
 import globalConfig from './config';
-
-let hasWarn = false;
+import { Logger } from './logger';
 
 export function fixCreateInnerAudioContext() {
   const originApi = wx.createInnerAudioContext
@@ -16,7 +15,7 @@ export function fixCreateInnerAudioContext() {
        * 高版本基础库修复了这个问题，因此针对低版本基础库做一个提示
        */
       if (!originalDescriptor.configurable) {
-        console.error(`[playable-adapter]: 当前基础库音频不可适配，请手动给音频的src加上独立分包的前缀${globalConfig.userPathPrefix}!`);
+        Logger.error(`当前基础库音频不可适配，请手动给音频的src加上独立分包的前缀${globalConfig.userPathPrefix}!`);
       } else {
         Object.defineProperty(innerAudio, 'src', {
           get() {

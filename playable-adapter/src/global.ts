@@ -1,5 +1,5 @@
 
-export function fixDeviceAPI() {
+export function fixGlobalAPI() {
   // 真机没有以下接口，需要适配
   if (!wx.onHide) {
     wx.onHide = function() {}
@@ -14,16 +14,17 @@ export function fixDeviceAPI() {
   }
   const timeLabel = new Map()
   let latestTime = 0;
-  if (!console.time) {
-    console.time = function(label) {
+  // DOM和小游戏类型定义冲突
+  if (!(console as any).time) {
+    (console as any).time = function(label: string) {
       if (label) {
         timeLabel.set(label, Date.now())
       }
       latestTime = Date.now()
     }
   }
-  if (!console.timeEnd) {
-    console.timeEnd = function(label) {
+  if (!(console as any).timeEnd) {
+    (console as any).timeEnd = function(label: string) {
       const t = Date.now()
       let delta = t - latestTime;
       if (label) {

@@ -8,6 +8,10 @@ export function fixGetSystemInfoSync() {
       if (!ret.platform) {
         ret.platform = ret.model && ret.model.includes('iPhone') ? 'ios' : 'android'
       }
+      // 全局未注入devicePixelRatio
+      if (!GameGlobal.devicePixelRatio) {
+        GameGlobal.devicePixelRatio = ret.pixelRatio
+      }
       return ret
     },
     configurable: true,

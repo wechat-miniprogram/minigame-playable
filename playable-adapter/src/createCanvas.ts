@@ -1,4 +1,4 @@
-import { imageMap, ImageWrapper } from './createImage';
+import { imageMap } from './createImage';
 
 function hookCanvas2d(originalContext: CanvasRenderingContext2D) {
   const drawApis = ['drawImage'];
@@ -53,7 +53,7 @@ export function fixCreateCanvas() {
     value() {
       const ret = originApi()
       const originGetContext = ret.getContext
-      ret.getContext = function (contextType: string, contextAttributes: object) {
+      ret.getContext = function (contextType: ContextType, contextAttributes?: WechatMinigame.ContextAttributes) {
         const originalContext = originGetContext.apply(ret, [contextType, contextAttributes]);
         if (contextType === '2d') {
           hookCanvas2d(originalContext);

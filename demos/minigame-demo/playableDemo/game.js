@@ -1,3 +1,8 @@
+// 开启enable之后的日志才输出到vConsole
+wx.setEnableDebug({
+    enableDebug: true,
+})
+
 // 引用适配器
 const PlayableAdapter = require('./playable-adapter.js').PlayableAdapter;
 
@@ -5,10 +10,6 @@ const PlayableAdapter = require('./playable-adapter.js').PlayableAdapter;
 new PlayableAdapter({
   userPathPrefix: 'playableDemo/',
 });
-
-wx.setEnableDebug({
-  enableDebug: true,
-})
 
 function __initApp () {  // init app
 globalThis.__wxRequire = require;  // FIX: require cannot work in separate engine 

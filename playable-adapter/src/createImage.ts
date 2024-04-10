@@ -7,7 +7,7 @@ export class ImageWrapper {
   public tagName = 'IMG';
   public nodeName = 'IMG';
 
-  constructor(img: HTMLImageElement) {
+  constructor(img: WechatMinigame.Image) {
     imageMap.set(this, img)
   }
 
@@ -67,21 +67,21 @@ export class ImageWrapper {
     imageMap.get(this).onerror = value;
   }
 
-  addEventListener() {
+  addEventListener(...args: any[]) {
     // 需要将 listener 套上一层替换 event.target
     const img = imageMap.get(this)
-    img.addEventListener(...arguments)
+    img.addEventListener(...args)
   }
 
-  removeEventListener() {
+  removeEventListener(...args: any[]) {
     const img = imageMap.get(this)
-    img.removeEventListener(...arguments)
+    img.removeEventListener(...args)
   }
 }
 
 export function fixCreateImage() {
   // 缓存旧的方法
-  let originAPI = wx.createImage;
+  const originAPI = wx.createImage;
 
   Object.defineProperty(wx, 'createImage', {
     value() {
