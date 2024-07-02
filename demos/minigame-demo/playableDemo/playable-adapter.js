@@ -28,6 +28,19 @@ var GlobalConfig = /** @class */ (function () {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   UPDATE_TIME: () => (/* binding */ UPDATE_TIME),
+/* harmony export */   VERSION: () => (/* binding */ VERSION)
+/* harmony export */ });
+var VERSION = '1.0.1';
+var UPDATE_TIME = '2024/7/2 14:41:25';
+
+
+/***/ }),
+/* 3 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ImageWrapper: () => (/* binding */ ImageWrapper),
 /* harmony export */   fixCreateImage: () => (/* binding */ fixCreateImage),
 /* harmony export */   imageMap: () => (/* binding */ imageMap)
@@ -65,6 +78,7 @@ var ImageWrapper = /** @class */ (function () {
         this.__image__ = true;
         this.tagName = 'IMG';
         this.nodeName = 'IMG';
+        this._src = '';
         imageMap.set(this, img);
     }
     Object.defineProperty(ImageWrapper.prototype, "width", {
@@ -99,8 +113,7 @@ var ImageWrapper = /** @class */ (function () {
     });
     Object.defineProperty(ImageWrapper.prototype, "src", {
         get: function () {
-            var image = imageMap.get(this);
-            return image.src;
+            return this._src;
         },
         set: function (src) {
             var image = imageMap.get(this);
@@ -111,6 +124,8 @@ var ImageWrapper = /** @class */ (function () {
             else {
                 image.src = src;
             }
+            // laya引擎在加载图集的时候，会重复加载同一张图，这时候需要返回未 prefix 的 URL
+            this._src = src;
         },
         enumerable: false,
         configurable: true
@@ -168,7 +183,7 @@ function fixCreateImage() {
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -263,7 +278,7 @@ function fixGetFileSystemManager() {
 
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -279,7 +294,7 @@ function fixGetOpenDataContext() {
 
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -307,7 +322,7 @@ function fixGetSystemInfoSync() {
 
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -359,7 +374,7 @@ function fixWXWebAssembly() {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -386,7 +401,7 @@ function fixLoadFont() {
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -394,7 +409,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   fixCreateInnerAudioContext: () => (/* binding */ fixCreateInnerAudioContext)
 /* harmony export */ });
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 
 
 function fixCreateInnerAudioContext() {
@@ -435,7 +450,100 @@ function fixCreateInnerAudioContext() {
 
 
 /***/ }),
-/* 9 */
+/* 10 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Logger: () => (/* binding */ Logger)
+/* harmony export */ });
+var __read = (undefined && undefined.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+var LogLevel;
+(function (LogLevel) {
+    LogLevel[LogLevel["None"] = 0] = "None";
+    LogLevel[LogLevel["Event"] = 1] = "Event";
+    LogLevel[LogLevel["Error"] = 2] = "Error";
+    LogLevel[LogLevel["Warn"] = 3] = "Warn";
+    LogLevel[LogLevel["Info"] = 4] = "Info";
+    LogLevel[LogLevel["Debug"] = 5] = "Debug";
+})(LogLevel || (LogLevel = {}));
+var Logger = /** @class */ (function () {
+    function Logger() {
+    }
+    Logger.error = function () {
+        var message = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            message[_i] = arguments[_i];
+        }
+        if (Logger.logLevel >= LogLevel.Error) {
+            console.error.apply(console, __spreadArray(['[playable-adapter][error]'], __read(message), false));
+        }
+    };
+    Logger.warn = function () {
+        var message = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            message[_i] = arguments[_i];
+        }
+        if (Logger.logLevel >= LogLevel.Warn) {
+            console.warn.apply(console, __spreadArray(['[playable-adapter][warn]'], __read(message), false));
+        }
+    };
+    Logger.info = function () {
+        var message = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            message[_i] = arguments[_i];
+        }
+        if (Logger.logLevel >= LogLevel.Info) {
+            console.info.apply(console, __spreadArray(['[playable-adapter][info]'], __read(message), false));
+        }
+    };
+    Logger.debug = function () {
+        var message = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            message[_i] = arguments[_i];
+        }
+        if (Logger.logLevel >= LogLevel.Debug) {
+            console.log.apply(console, __spreadArray(['[playable-adapter][debug]'], __read(message), false));
+        }
+    };
+    Logger.setLogLevel = function (logLevel) {
+        Logger.logLevel = logLevel;
+    };
+    Logger.getLogLevel = function () {
+        return Logger.logLevel;
+    };
+    Logger.logLevel = LogLevel.Info;
+    return Logger;
+}());
+
+
+
+/***/ }),
+/* 11 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -488,14 +596,14 @@ function fixGlobalAPI() {
 
 
 /***/ }),
-/* 10 */
+/* 12 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   fixCreateCanvas: () => (/* binding */ fixCreateCanvas)
 /* harmony export */ });
-/* harmony import */ var _createImage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _createImage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
 var __read = (undefined && undefined.__read) || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
@@ -598,110 +706,6 @@ function fixCreateCanvas() {
 }
 
 
-/***/ }),
-/* 11 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   VERSION: () => (/* binding */ VERSION)
-/* harmony export */ });
-var VERSION = '1.0.0';
-
-
-/***/ }),
-/* 12 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Logger: () => (/* binding */ Logger)
-/* harmony export */ });
-var __read = (undefined && undefined.__read) || function (o, n) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m) return o;
-    var i = m.call(o), r, ar = [], e;
-    try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
-    }
-    catch (error) { e = { error: error }; }
-    finally {
-        try {
-            if (r && !r.done && (m = i["return"])) m.call(i);
-        }
-        finally { if (e) throw e.error; }
-    }
-    return ar;
-};
-var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var LogLevel;
-(function (LogLevel) {
-    LogLevel[LogLevel["None"] = 0] = "None";
-    LogLevel[LogLevel["Event"] = 1] = "Event";
-    LogLevel[LogLevel["Error"] = 2] = "Error";
-    LogLevel[LogLevel["Warn"] = 3] = "Warn";
-    LogLevel[LogLevel["Info"] = 4] = "Info";
-    LogLevel[LogLevel["Debug"] = 5] = "Debug";
-})(LogLevel || (LogLevel = {}));
-var Logger = /** @class */ (function () {
-    function Logger() {
-    }
-    Logger.error = function () {
-        var message = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            message[_i] = arguments[_i];
-        }
-        if (Logger.logLevel >= LogLevel.Error) {
-            console.error.apply(console, __spreadArray(['[playable-adapter][error]'], __read(message), false));
-        }
-    };
-    Logger.warn = function () {
-        var message = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            message[_i] = arguments[_i];
-        }
-        if (Logger.logLevel >= LogLevel.Warn) {
-            console.warn.apply(console, __spreadArray(['[playable-adapter][warn]'], __read(message), false));
-        }
-    };
-    Logger.info = function () {
-        var message = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            message[_i] = arguments[_i];
-        }
-        if (Logger.logLevel >= LogLevel.Info) {
-            console.info.apply(console, __spreadArray(['[playable-adapter][info]'], __read(message), false));
-        }
-    };
-    Logger.debug = function () {
-        var message = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            message[_i] = arguments[_i];
-        }
-        if (Logger.logLevel >= LogLevel.Debug) {
-            console.log.apply(console, __spreadArray(['[playable-adapter][debug]'], __read(message), false));
-        }
-    };
-    Logger.setLogLevel = function (logLevel) {
-        Logger.logLevel = logLevel;
-    };
-    Logger.getLogLevel = function () {
-        return Logger.logLevel;
-    };
-    Logger.logLevel = LogLevel.Info;
-    return Logger;
-}());
-
-
-
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -767,17 +771,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   PlayableAdapter: () => (/* binding */ PlayableAdapter)
 /* harmony export */ });
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
-/* harmony import */ var _createImage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
-/* harmony import */ var _getFileSystemManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
-/* harmony import */ var _getOpenDataContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
-/* harmony import */ var _getSystemInfoSync__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5);
-/* harmony import */ var _WXWebAssembly__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6);
-/* harmony import */ var _loadFont__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7);
-/* harmony import */ var _createInnerAudioContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(8);
-/* harmony import */ var _global__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(9);
-/* harmony import */ var _createCanvas__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(10);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(12);
+/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var _createImage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _getFileSystemManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony import */ var _getOpenDataContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
+/* harmony import */ var _getSystemInfoSync__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _WXWebAssembly__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
+/* harmony import */ var _loadFont__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8);
+/* harmony import */ var _createInnerAudioContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
+/* harmony import */ var _global__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(11);
+/* harmony import */ var _createCanvas__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(12);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(10);
 
 
 
@@ -806,7 +810,7 @@ var PlayableAdapter = /** @class */ (function () {
         (0,_createCanvas__WEBPACK_IMPORTED_MODULE_10__.fixCreateCanvas)();
         // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
         wx.getSystemInfoSync();
-        _logger__WEBPACK_IMPORTED_MODULE_11__.Logger.info("v".concat(_const__WEBPACK_IMPORTED_MODULE_1__.VERSION, " inited!"));
+        _logger__WEBPACK_IMPORTED_MODULE_11__.Logger.info("v".concat(_const__WEBPACK_IMPORTED_MODULE_1__.VERSION, ", ").concat(_const__WEBPACK_IMPORTED_MODULE_1__.UPDATE_TIME, " inited!"));
     }
     return PlayableAdapter;
 }());

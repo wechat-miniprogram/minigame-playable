@@ -1,5 +1,5 @@
 import globalConfig from './config';
-import { VERSION } from './const';
+import { UPDATE_TIME, VERSION } from './const';
 
 import { fixCreateImage } from './createImage';
 import { fixGetFileSystemManager } from './getFileSystemManager';
@@ -35,6 +35,6 @@ export class PlayableAdapter {
     // 调用getSystemInfoSync时会设置devicePixelRatio，先触发一次
     wx.getSystemInfoSync();
 
-    Logger.info(`v${VERSION} inited!`);
+    Logger.info(`v${VERSION}, ${UPDATE_TIME} inited!`);
   }
 }
