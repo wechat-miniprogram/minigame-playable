@@ -6,6 +6,7 @@ export class ImageWrapper {
   public __image__ = true;
   public tagName = 'IMG';
   public nodeName = 'IMG';
+  public _src = ''
 
   constructor(img: WechatMinigame.Image) {
     imageMap.set(this, img)
@@ -36,8 +37,7 @@ export class ImageWrapper {
   }
 
   get src() {
-    const image = imageMap.get(this)
-    return image.src
+    return this._src
   }
 
   set src(src: string) {
@@ -49,6 +49,8 @@ export class ImageWrapper {
     } else {
       image.src = src
     }
+    // laya引擎在加载图集的时候，会重复加载同一张图，这时候需要返回未 prefix 的 URL
+    this._src = src
   }
 
   get onload() {

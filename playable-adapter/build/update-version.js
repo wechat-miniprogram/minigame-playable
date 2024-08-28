@@ -13,7 +13,8 @@ async function getVersion() {
 async function modifyVersion(version) {
   const targetFilePath = path.resolve(__dirname, '../src/const.ts')
   const fileContent = await fs.readFile(targetFilePath, 'utf-8')
-  const newContent = fileContent.replace(/export const VERSION = '(.)*'/, `export const VERSION = '${version}'`)
+  let newContent = fileContent.replace(/export const VERSION = '(.)*'/, `export const VERSION = '${version}'`)
+  newContent = fileContent.replace(/export const UPDATE_TIME = '(.)*'/, `export const UPDATE_TIME = '${new Date().toLocaleString()}'`)
   fs.writeFile(targetFilePath, newContent, 'utf-8');
 }
 
